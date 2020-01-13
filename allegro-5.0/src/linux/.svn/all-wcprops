@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/alleg/!svn/ver/15813/allegro/branches/5.0/src/linux
+END
+lsystem.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lsystem.c
+END
+lmsems.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lmsems.c
+END
+lmouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lmouse.c
+END
+lmsegpmd.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lmsegpmd.c
+END
+vtswitch.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/vtswitch.c
+END
+lmsedrv.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lmsedrv.c
+END
+lgfxdrv.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lgfxdrv.c
+END
+lkeybdnu.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lkeybdnu.c
+END
+lconsole.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lconsole.c
+END
+ljoynu.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15813/allegro/branches/5.0/src/linux/ljoynu.c
+END
+lasyncio.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lasyncio.c
+END
+lstddrv.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lstddrv.c
+END
+lmemory.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lmemory.c
+END
+lmseps2.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lmseps2.c
+END
+lmseev.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/linux/lmseev.c
+END

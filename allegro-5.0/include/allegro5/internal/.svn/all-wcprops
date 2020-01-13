@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15749/allegro/branches/5.0/include/allegro5/internal
+END
+aintern_pixels.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/14031/allegro/branches/5.0/include/allegro5/internal/aintern_pixels.h
+END
+aintern_events.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_events.h
+END
+aintern_thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_thread.h
+END
+aintern_dtor.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_dtor.h
+END
+aintern_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/alleg/!svn/ver/14430/allegro/branches/5.0/include/allegro5/internal/aintern_list.h
+END
+aintern_bitmap.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_bitmap.h
+END
+aintern_file.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/alleg/!svn/ver/14167/allegro/branches/5.0/include/allegro5/internal/aintern_file.h
+END
+aintern_timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/alleg/!svn/ver/14924/allegro/branches/5.0/include/allegro5/internal/aintern_timer.h
+END
+aintern_convert.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_convert.h
+END
+bstrlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/14452/allegro/branches/5.0/include/allegro5/internal/bstrlib.h
+END
+aintern_iphone.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/14039/allegro/branches/5.0/include/allegro5/internal/aintern_iphone.h
+END
+aintern_opengl.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/15749/allegro/branches/5.0/include/allegro5/internal/aintern_opengl.h
+END
+aintern_mouse.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_mouse.h
+END
+aintern_tri_soft.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_tri_soft.h
+END
+aintern_fshook.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_fshook.h
+END
+aintern_path.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_path.h
+END
+aintern_joystick.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_joystick.h
+END
+aintern_keyboard.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/14377/allegro/branches/5.0/include/allegro5/internal/aintern_keyboard.h
+END
+aintern_aatree.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_aatree.h
+END
+aintern_config.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_config.h
+END
+aintern_display.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/15740/allegro/branches/5.0/include/allegro5/internal/aintern_display.h
+END
+aintern_float.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_float.h
+END
+aintern_gp2xwiz.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_gp2xwiz.h
+END
+aintern.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern.h
+END
+aintern_xglx.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/alleg/!svn/ver/15731/allegro/branches/5.0/include/allegro5/internal/aintern_xglx.h
+END
+aintern_system.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/15308/allegro/branches/5.0/include/allegro5/internal/aintern_system.h
+END
+aintern_blend.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_blend.h
+END
+aintern_atomicops.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_atomicops.h
+END
+aintern_direct3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/14430/allegro/branches/5.0/include/allegro5/internal/aintern_direct3d.h
+END
+alconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/15743/allegro/branches/5.0/include/allegro5/internal/alconfig.h
+END
+aintern_vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/15351/allegro/branches/5.0/include/allegro5/internal/aintern_vector.h
+END
+aintern_tls.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/internal/aintern_tls.h
+END

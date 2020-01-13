@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/15793/allegro/branches/5.0/src/opengl
+END
+ogl_bitmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/15793/allegro/branches/5.0/src/opengl/ogl_bitmap.c
+END
+ogl_draw.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14410/allegro/branches/5.0/src/opengl/ogl_draw.c
+END
+extensions.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/15749/allegro/branches/5.0/src/opengl/extensions.c
+END
+ogl_display.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15092/allegro/branches/5.0/src/opengl/ogl_display.c
+END

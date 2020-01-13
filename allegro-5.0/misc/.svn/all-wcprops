@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/alleg/!svn/ver/14891/allegro/branches/5.0/misc
+END
+allegro_primitives.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_primitives.pc.in
+END
+allegro_ttf.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_ttf.pc.in
+END
+fixver.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/fixver.sh
+END
+allegro_audio.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_audio.pc.in
+END
+embedman.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/embedman.bat
+END
+askq.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/askq.c
+END
+utod.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/utod.sh
+END
+allegro_color.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_color.pc.in
+END
+mkunixdists.sh
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/mkunixdists.sh
+END
+gcc-uni.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/gcc-uni.sh
+END
+allegro_main.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_main.pc.in
+END
+msvchelp.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/msvchelp.c
+END
+coverage.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/coverage.sh
+END
+convert_line_endings.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/convert_line_endings.sh
+END
+make_scanline_drawers.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/14891/allegro/branches/5.0/misc/make_scanline_drawers.py
+END
+allegro_dialog.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_dialog.pc.in
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/icon.png
+END
+gl_mkalias.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/gl_mkalias.sh
+END
+make_converters.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/make_converters.py
+END
+zipup.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/zipup.sh
+END
+allegro_font.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/14563/allegro/branches/5.0/misc/allegro_font.pc.in
+END
+dtou.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/dtou.sh
+END
+vcvars.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/vcvars.c
+END
+sf-cf.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/sf-cf.py
+END
+allegro_physfs.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_physfs.pc.in
+END
+allegro_acodec.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_acodec.pc.in
+END
+zipwin.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/zipwin.sh
+END
+allegro_memfile.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_memfile.pc.in
+END
+icon.xpm
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/icon.xpm
+END
+allegro.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro.pc.in
+END
+allegro_image.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/14113/allegro/branches/5.0/misc/allegro_image.pc.in
+END
+release.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/misc/release.txt
+END

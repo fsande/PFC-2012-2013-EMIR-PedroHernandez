@@ -1,0 +1,1 @@
+/usr/bin/gcc   -msse -W -Wall  -O2 -g    CMakeFiles/make_protos.dir/scripts/make_protos.c.o CMakeFiles/make_protos.dir/scripts/aatree.c.o CMakeFiles/make_protos.dir/scripts/dawk.c.o CMakeFiles/make_protos.dir/scripts/trex.c.o  -o make_protos -rdynamic 

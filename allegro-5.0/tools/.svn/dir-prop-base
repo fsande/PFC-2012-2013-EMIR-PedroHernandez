@@ -1,0 +1,20 @@
+K 10
+svn:ignore
+V 127
+CMakeFiles
+Makefile
+cmake_install.cmake
+allegro.cfg
+colormap
+dat
+dat2c
+dat2s
+exedat
+grabber
+pack
+pat2dat
+rgbmap
+textconv
+*.exe
+
+END

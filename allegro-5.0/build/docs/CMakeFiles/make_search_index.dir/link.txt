@@ -1,0 +1,1 @@
+/usr/bin/gcc   -msse -W -Wall  -O2 -g    CMakeFiles/make_search_index.dir/scripts/make_search_index.c.o CMakeFiles/make_search_index.dir/scripts/aatree.c.o CMakeFiles/make_search_index.dir/scripts/dawk.c.o CMakeFiles/make_search_index.dir/scripts/trex.c.o  -o make_search_index -rdynamic 

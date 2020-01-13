@@ -1,0 +1,13 @@
+Pixel size: 18.5 μm squared = 18.5 x 10e-6 mm2
+
+
+Plate scale at the CSU: 1.1746 arcsec/mm.
+Projected pixel size on the sky: 0.1946 arcsec squared.
+
+Projected pixel size onto the CSU: 166 μm squared.
+CSU spectroscopy area: 340 x 205 mm2
+long slit length: 340 mm
+slitlet length: 6,18 mm
+slit width: bet. 0,340 and 1 mm
+dead spaces at both ends of each slit let: 0.250 mm in slit length 
+

@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15753/allegro/branches/5.0/include/allegro5/platform
+END
+aintwiz.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aintwiz.h
+END
+aintosx.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/15733/allegro/branches/5.0/include/allegro5/platform/aintosx.h
+END
+almsvc.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/almsvc.h
+END
+al386vc.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/al386vc.h
+END
+alosx.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/14600/allegro/branches/5.0/include/allegro5/platform/alosx.h
+END
+alwiz.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/alwiz.h
+END
+almngw32.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/almngw32.h
+END
+aintxglx.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aintxglx.h
+END
+aintuthr.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aintuthr.h
+END
+aintiphone.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/alleg/!svn/ver/14357/allegro/branches/5.0/include/allegro5/platform/aintiphone.h
+END
+aliphone.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aliphone.h
+END
+aintunix.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aintunix.h
+END
+aintwthr.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aintwthr.h
+END
+alunix.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/alunix.h
+END
+alucfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/alucfg.h
+END
+alplatf.h.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/alleg/!svn/ver/14591/allegro/branches/5.0/include/allegro5/platform/alplatf.h.cmake
+END
+alosxcfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/alosxcfg.h
+END
+alwizcfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/alwizcfg.h
+END
+astdint.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/astdint.h
+END
+alwatcom.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/alwatcom.h
+END
+astdbool.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/astdbool.h
+END
+albcc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/albcc32.h
+END
+al386wat.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/al386wat.h
+END
+aintwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/15753/allegro/branches/5.0/include/allegro5/platform/aintwin.h
+END
+al386gcc.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/al386gcc.h
+END
+alwin.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/alwin.h
+END
+aintlnx.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aintlnx.h
+END
+aliphonecfg.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aliphonecfg.h
+END
+aldmc.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/platform/aldmc.h
+END

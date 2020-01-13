@@ -1,0 +1,277 @@
+<Observables widht="900" height="900">
+	<Element id="0">
+		<x>573</x>
+		<y>402.4242</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="1">
+		<x>595</x>
+		<y>409.6968</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="2">
+		<x>458</x>
+		<y>416.9694</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="3">
+		<x>409</x>
+		<y>424.242</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="4">
+		<x>599</x>
+		<y>431.5146</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="5">
+		<x>403</x>
+		<y>438.7872</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="6">
+		<x>574</x>
+		<y>446.0598</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="7">
+		<x>535</x>
+		<y>453.3324</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="8">
+		<x>427</x>
+		<y>460.605</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="9">
+		<x>462</x>
+		<y>467.8776</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="10">
+		<x>545</x>
+		<y>475.1502</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="11">
+		<x>552</x>
+		<y>482.4228</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="12">
+		<x>454</x>
+		<y>489.6954</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="13">
+		<x>408</x>
+		<y>496.968</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="14">
+		<x>569</x>
+		<y>504.2406</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="15">
+		<x>563</x>
+		<y>511.5132</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="16">
+		<x>578</x>
+		<y>518.7858</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="17">
+		<x>456</x>
+		<y>526.0584</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="18">
+		<x>592</x>
+		<y>533.331</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="19">
+		<x>452</x>
+		<y>540.6036</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="20">
+		<x>487</x>
+		<y>547.8762</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="21">
+		<x>515</x>
+		<y>555.1488</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="22">
+		<x>412</x>
+		<y>562.4214</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="23">
+		<x>509</x>
+		<y>569.694</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="24">
+		<x>526</x>
+		<y>576.9666</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="25">
+		<x>589</x>
+		<y>584.2392</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="26">
+		<x>437</x>
+		<y>591.5118</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="27">
+		<x>510</x>
+		<y>598.7844</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="28">
+		<x>454</x>
+		<y>606.057</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="29">
+		<x>449</x>
+		<y>613.3296</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="30">
+		<x>442</x>
+		<y>620.6022</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="31">
+		<x>421</x>
+		<y>627.8748</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="32">
+		<x>476</x>
+		<y>635.1474</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="33">
+		<x>486</x>
+		<y>642.42</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="34">
+		<x>504</x>
+		<y>649.6926</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="35">
+		<x>488</x>
+		<y>656.9652</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="36">
+		<x>420</x>
+		<y>664.2378</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="37">
+		<x>548</x>
+		<y>671.5104</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="38">
+		<x>555</x>
+		<y>678.783</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="39">
+		<x>531</x>
+		<y>686.0556</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="40">
+		<x>419</x>
+		<y>693.3282</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="41">
+		<x>491</x>
+		<y>700.6008</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="42">
+		<x>501</x>
+		<y>707.8734</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="43">
+		<x>451</x>
+		<y>715.146</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="44">
+		<x>582</x>
+		<y>722.4186</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="45">
+		<x>515</x>
+		<y>729.6912</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="46">
+		<x>587</x>
+		<y>736.9638</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="47">
+		<x>532</x>
+		<y>744.2364</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="48">
+		<x>443</x>
+		<y>751.509</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="49">
+		<x>459</x>
+		<y>758.7816</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="50">
+		<x>592</x>
+		<y>766.0542</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="51">
+		<x>470</x>
+		<y>773.3268</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="52">
+		<x>597</x>
+		<y>780.5994</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="53">
+		<x>566</x>
+		<y>787.872</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="54">
+		<x>409</x>
+		<y>795.1446</y>
+		<Prioridad>1</Prioridad>
+	</Element>
+</Observables>

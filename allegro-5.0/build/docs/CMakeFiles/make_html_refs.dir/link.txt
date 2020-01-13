@@ -1,0 +1,1 @@
+/usr/bin/gcc   -msse -W -Wall  -O2 -g    CMakeFiles/make_html_refs.dir/scripts/make_html_refs.c.o CMakeFiles/make_html_refs.dir/scripts/aatree.c.o CMakeFiles/make_html_refs.dir/scripts/dawk.c.o CMakeFiles/make_html_refs.dir/scripts/trex.c.o  -o make_html_refs -rdynamic 

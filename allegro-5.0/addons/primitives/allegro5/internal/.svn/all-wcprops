@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/allegro5/internal
+END
+aintern_prim_soft.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/allegro5/internal/aintern_prim_soft.h
+END
+aintern_prim.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/allegro5/internal/aintern_prim.h
+END
+aintern_prim_directx.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/allegro5/internal/aintern_prim_directx.h
+END
+aintern_prim_opengl.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/allegro5/internal/aintern_prim_opengl.h
+END

@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -msse -W -Wall  -O2 -g   -shared -Wl,-soname,liballegro_memfile.so.5.0 -o ../../lib/liballegro_memfile.so.5.0.7 CMakeFiles/allegro_memfile.dir/memfile.c.o ../../lib/liballegro.so.5.0.7 -lm -lpthread -lSM -lICE -lX11 -lXext -lXcursor -lXinerama -lXrandr -lXpm -lGL -lGLU -Wl,-rpath,/home/sande/work/PROYECTOS_PFCs/Proyecto_Pedro-EMIR/allegro-5.0/build/lib: 

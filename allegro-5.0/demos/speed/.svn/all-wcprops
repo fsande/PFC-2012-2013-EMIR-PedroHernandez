@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/alleg/!svn/ver/15731/allegro/branches/5.0/demos/speed
+END
+message.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/message.c
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15731/allegro/branches/5.0/demos/speed/main.c
+END
+a4_aux.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/a4_aux.h
+END
+29.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/29.txt
+END
+sound.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/sound.c
+END
+player.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/player.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/makefile
+END
+hiscore.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14343/allegro/branches/5.0/demos/speed/hiscore.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14961/allegro/branches/5.0/demos/speed/CMakeLists.txt
+END
+speed.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/speed.txt
+END
+badguys.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/badguys.c
+END
+explode.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/explode.c
+END
+speed.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/speed.h
+END
+bullets.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/bullets.c
+END
+view.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/view.c
+END
+update.pl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/update.pl
+END
+port.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/port.txt
+END
+a4_aux.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/14127/allegro/branches/5.0/demos/speed/a4_aux.c
+END
+title.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/speed/title.c
+END

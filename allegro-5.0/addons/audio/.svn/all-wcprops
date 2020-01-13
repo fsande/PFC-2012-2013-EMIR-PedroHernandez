@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/15819/allegro/branches/5.0/addons/audio
+END
+kcm_stream.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15776/allegro/branches/5.0/addons/audio/kcm_stream.c
+END
+audio_io.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/14031/allegro/branches/5.0/addons/audio/audio_io.c
+END
+dsound.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/14575/allegro/branches/5.0/addons/audio/dsound.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/14355/allegro/branches/5.0/addons/audio/CMakeLists.txt
+END
+kcm_instance.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/15769/allegro/branches/5.0/addons/audio/kcm_instance.c
+END
+kcm_voice.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15769/allegro/branches/5.0/addons/audio/kcm_voice.c
+END
+aqueue.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14226/allegro/branches/5.0/addons/audio/aqueue.m
+END
+audio.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15336/allegro/branches/5.0/addons/audio/audio.c
+END
+kcm_dtor.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/audio/kcm_dtor.c
+END
+oss.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15769/allegro/branches/5.0/addons/audio/oss.c
+END
+pulseaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15819/allegro/branches/5.0/addons/audio/pulseaudio.c
+END
+kcm_sample.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15769/allegro/branches/5.0/addons/audio/kcm_sample.c
+END
+openal.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/15359/allegro/branches/5.0/addons/audio/openal.c
+END
+kcm_mixer.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15818/allegro/branches/5.0/addons/audio/kcm_mixer.c
+END
+alsa.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15769/allegro/branches/5.0/addons/audio/alsa.c
+END

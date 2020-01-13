@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/alleg/!svn/ver/15340/allegro/branches/5.0/cmake
+END
+FindDUMB.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/cmake/FindDUMB.cmake
+END
+Common.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15071/allegro/branches/5.0/cmake/Common.cmake
+END
+CheckCtors.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/cmake/CheckCtors.cmake
+END
+FindD3DX9.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14969/allegro/branches/5.0/cmake/FindD3DX9.cmake
+END
+FindDSound.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14968/allegro/branches/5.0/cmake/FindDSound.cmake
+END
+Toolchain-mingw.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/15340/allegro/branches/5.0/cmake/Toolchain-mingw.cmake
+END
+Toolchain-iphone.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/15069/allegro/branches/5.0/cmake/Toolchain-iphone.cmake
+END
+FindDInput.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14968/allegro/branches/5.0/cmake/FindDInput.cmake
+END
+FindD3D9.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/14968/allegro/branches/5.0/cmake/FindD3D9.cmake
+END
+FindVorbis.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/15339/allegro/branches/5.0/cmake/FindVorbis.cmake
+END
+FindFLAC.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/14970/allegro/branches/5.0/cmake/FindFLAC.cmake
+END
+FindGDIPLUS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/cmake/FindGDIPLUS.cmake
+END
+FindTremor.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14589/allegro/branches/5.0/cmake/FindTremor.cmake
+END
+Toolchain-openwiz.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/cmake/Toolchain-openwiz.cmake
+END
+FileList.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15307/allegro/branches/5.0/cmake/FileList.cmake
+END
+AllegroFindOSS.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/cmake/AllegroFindOSS.cmake
+END
+FindOgg.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15339/allegro/branches/5.0/cmake/FindOgg.cmake
+END
+FindDXGuid.cmake
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14968/allegro/branches/5.0/cmake/FindDXGuid.cmake
+END

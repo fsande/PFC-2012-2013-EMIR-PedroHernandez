@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/15731/allegro/branches/5.0/src/iphone
+END
+allegroAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/alleg/!svn/ver/15079/allegro/branches/5.0/src/iphone/allegroAppDelegate.m
+END
+iphone_joystick.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/15076/allegro/branches/5.0/src/iphone/iphone_joystick.m
+END
+EAGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/15071/allegro/branches/5.0/src/iphone/EAGLView.m
+END
+iphone_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/iphone/iphone_main.m
+END
+iphone_keyboard.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/iphone/iphone_keyboard.c
+END
+iphone_mouse.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/iphone/iphone_mouse.m
+END
+allegroAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/alleg/!svn/ver/14039/allegro/branches/5.0/src/iphone/allegroAppDelegate.h
+END
+iphone_system.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14966/allegro/branches/5.0/src/iphone/iphone_system.c
+END
+iphone_display.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/15731/allegro/branches/5.0/src/iphone/iphone_display.c
+END
+EAGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14428/allegro/branches/5.0/src/iphone/EAGLView.h
+END
+iphone_path.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15095/allegro/branches/5.0/src/iphone/iphone_path.m
+END

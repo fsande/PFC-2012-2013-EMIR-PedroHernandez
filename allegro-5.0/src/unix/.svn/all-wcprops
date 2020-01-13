@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/alleg/!svn/ver/15781/allegro/branches/5.0/src/unix
+END
+ujoydrv.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15779/allegro/branches/5.0/src/unix/ujoydrv.c
+END
+ukeybd.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/unix/ukeybd.c
+END
+utime.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/alleg/!svn/ver/15740/allegro/branches/5.0/src/unix/utime.c
+END
+uxthread.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/unix/uxthread.c
+END
+ufdwatch.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/unix/ufdwatch.c
+END
+ugfxdrv.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/unix/ugfxdrv.c
+END
+udrvlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15781/allegro/branches/5.0/src/unix/udrvlist.c
+END
+umodules.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/unix/umodules.c
+END
+umouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/unix/umouse.c
+END
+upath.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/alleg/!svn/ver/15736/allegro/branches/5.0/src/unix/upath.c
+END

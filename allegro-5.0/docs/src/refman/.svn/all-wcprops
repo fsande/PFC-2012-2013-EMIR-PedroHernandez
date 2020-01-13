@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/alleg/!svn/ver/15826/allegro/branches/5.0/docs/src/refman
+END
+native_dialog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/14404/allegro/branches/5.0/docs/src/refman/native_dialog.txt
+END
+config.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14892/allegro/branches/5.0/docs/src/refman/config.txt
+END
+display.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/15753/allegro/branches/5.0/docs/src/refman/display.txt
+END
+font.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15825/allegro/branches/5.0/docs/src/refman/font.txt
+END
+index.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15822/allegro/branches/5.0/docs/src/refman/index.txt
+END
+latex.template
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/alleg/!svn/ver/14449/allegro/branches/5.0/docs/src/refman/latex.template
+END
+physfs.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/physfs.txt
+END
+memfile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/14166/allegro/branches/5.0/docs/src/refman/memfile.txt
+END
+acodec.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/acodec.txt
+END
+image.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/image.txt
+END
+platform.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/14043/allegro/branches/5.0/docs/src/refman/platform.txt
+END
+system.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/15421/allegro/branches/5.0/docs/src/refman/system.txt
+END
+inc.a.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15822/allegro/branches/5.0/docs/src/refman/inc.a.txt
+END
+threads.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/threads.txt
+END
+primitives.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/alleg/!svn/ver/15421/allegro/branches/5.0/docs/src/refman/primitives.txt
+END
+time.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/14022/allegro/branches/5.0/docs/src/refman/time.txt
+END
+fixed.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/fixed.txt
+END
+audio.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15823/allegro/branches/5.0/docs/src/refman/audio.txt
+END
+direct3d.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/direct3d.txt
+END
+events.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/15817/allegro/branches/5.0/docs/src/refman/events.txt
+END
+memory.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/memory.txt
+END
+color.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14472/allegro/branches/5.0/docs/src/refman/color.txt
+END
+file.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15421/allegro/branches/5.0/docs/src/refman/file.txt
+END
+state.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/state.txt
+END
+timer.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/timer.txt
+END
+inc.z.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/inc.z.txt
+END
+opengl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14889/allegro/branches/5.0/docs/src/refman/opengl.txt
+END
+main.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15826/allegro/branches/5.0/docs/src/refman/main.txt
+END
+utf8.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15794/allegro/branches/5.0/docs/src/refman/utf8.txt
+END
+getting_started.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/15822/allegro/branches/5.0/docs/src/refman/getting_started.txt
+END
+mouse.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14397/allegro/branches/5.0/docs/src/refman/mouse.txt
+END
+fshook.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14120/allegro/branches/5.0/docs/src/refman/fshook.txt
+END
+transformations.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/14926/allegro/branches/5.0/docs/src/refman/transformations.txt
+END
+misc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/misc.txt
+END
+path.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/14403/allegro/branches/5.0/docs/src/refman/path.txt
+END
+joystick.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/docs/src/refman/joystick.txt
+END
+keyboard.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/14402/allegro/branches/5.0/docs/src/refman/keyboard.txt
+END
+graphics.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/15421/allegro/branches/5.0/docs/src/refman/graphics.txt
+END

@@ -1,0 +1,139 @@
+\documentclass[10pt,xcolor=svgnames]{beamer}
+\usepackage{tikz}
+\setbeamertemplate{navigation symbols}{}
+\usetheme[pageofpages=of,                                % String used between the current page and the
+                                                         % total page count.
+          alternativetitlepage=true,                     % Use the fancy title page.
+          titlepagelogo=imgs/logos/ull_color_vertical,   % Logo for the first page.
+          watermark=imgs/logos/logoOficialUll_watermark, % Watermark used in every page.
+          watermarkheight=100px,                         % Height of the watermark.
+          watermarkheightmult=4,                         % The watermark image is 4 times bigger
+                                                         % than watermarkheight.
+          ]{Ull}
+%\progressbaroptions{headline=sections,frametitle=normal, titlepage=normal}
+\usepackage{thumbpdf}
+\usepackage{calc}
+\usepackage{ucs}
+\usepackage{listings}
+\usepackage[utf8x]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps,pgfshade}
+\usepackage{pgfpages}
+\usepackage{xxcolor}
+\usetikzlibrary{arrows}
+\usetikzlibrary{trees}
+\pdfinfo
+{
+  /Title       (CSUOptimizer: Optimización de apuntados en el proyecto EMIR)
+  /Creator     (Pedro Hdez. Martín)
+  /Author      (Pedro Hdez. Martín)
+  /Subject     (PFC-EMIR, 16 Jul 2013)
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{marron}       {rgb}{0.496, 0.203, 0.152}
+\definecolor{verde-claro}  {rgb}{0.625, 0.734, 0.199}
+\definecolor{oscuro}       {rgb}{0.187, 0.141, 0.285}
+\definecolor{gris}     	   {rgb}{0.500, 0.500, 0.500}
+\definecolor{bgd-listings} {rgb}{0.999, 0.999, 0.900}
+\definecolor{gray97}{gray}{.97}
+\definecolor{gray75}{gray}{.75}
+\definecolor{gray45}{gray}{.45}
+\lstloadlanguages{C++}
+\lstset{
+  language=C++,                          	% C++
+	keywordstyle=\color{black}\textbf,   	% BGD: Palabras clave en negro y negrita
+	%showstringspaces=false
+	%backgroundcolor=\color{yellow},     	% Códigos sobre fondo amarillo
+  backgroundcolor=\color{bgd-listings},
+	basewidth={0.6em, 0.45em},
+	%basicstyle=\small,                   	% Listados en small
+	basicstyle=\scriptsize,                   	% Listados en small
+	breakautoindent=true,									% BGD: Autoindentar líneas cortadas
+	breaklines=true,											% BGD: Cortar líneas si son muy grandes
+	captionpos=b,													% Posición de los títulos abajo (bottom)
+	columns=fixed,
+  %commentstyle=\color{blue},           % comentarios en azul
+  %commentstyle=\color{gray45},
+	commentstyle=\color{blue}\textit,  	 	% BGD: Comentarios en azul cursiva
+	directivestyle=\color{oscuro}\texttt,	
+	emph={hicuda,data,region,pragma,acc,loop,private,collapse,kernel,kernels,copy,copyin,llc,omp},								% BGD: Resaltar las palabras pragma, llc y omp
+	emphstyle=\textbf,
+	extendedchars=true,									  % BGD: Utiliza caracteres extendidos (tildes, etc.)
+	firstnumber=1,												% BGD: Número línea empieza en 0 (línea vacía, no se muestra)
+  %frame=lines,                        	% Línea arriba y abajo de cada listado de código
+	%frame=trbl,														% BGD: Cuadro  (t/T: top, r/R: right, b/B: bottom, l/L: left): x->thin, X->thick
+	framesep=4pt,
+	%framexleftmargin=5mm,									% BGD: Margen izquierdo de los marcos (para que quepan num. de línea) 
+  %identifierstyle=\ttfamily,
+	identifierstyle=\color{black}\ttfamily, % BGD: Identificadores en negro	
+	inputencoding=latin1,									
+	keepspaces=true,											% BGD: Mantener espacios
+	numberblanklines=false,								% BGD: No pone números de línea en líneas vacías
+	numbers=left,													% BGD: Números de línea a la izquierda
+	numbersep=8pt,												% BGD: Números de línea separados 8 pts a la izquierda
+	postbreak=\space,					  					% BGD: Cortar líneas por espacios
+	rulesepcolor=\color{black},						% BGD: Color de los cuadros azul
+	showstringspaces=false,								% BGD: No mostar espacios
+	stepnumber=1,													% BGD: Números línea a línea
+	tabsize=2,														% BGD: Tamaño de tabulador para indentaciones = 2
+  %framerule=0pt,
+  %keywordstyle=\color{red},            % Palabras clave en rojo
+  keywordstyle=\bfseries,
+	%stringstyle=\color{red}\texttt,       % BGD: Cadenas en rojo
+  %stringstyle=\color{green},           % cadenas en verde
+  stringstyle=\ttfamily,
+}
+
+\title{\textbf{\texttt{CSUOptimizer}: Optimización de apuntados en el proyecto EMIR}}
+\author[Hernández Martín]{%
+  \textbf{Pedro Orlando~Hernández Martín}}
+\institute[Universidad de La Laguna]{
+}
+%\date[HAC-2012]{\textbf{HAC-2012, Leganés, July 13}}
+\date[PFC-2013]{\textsc{Proyecto de Fin de Carrera,\\
+                        Ingeniería Informática} \\
+                        La Laguna, 16 Julio 2013}
+\subject{PFC - EMIR}
+
+%\AtBeginSection[]
+%{
+%  \frame<handout:0>
+%  {
+%    \frametitle{Índice}
+%    \tableofcontents[current]
+%  }
+%}
+
+\begin{document}
+\newcommand{\CSUO}{\texttt{CSUOptimizer}{}}          
+
+\frame{\titlepage}
+\input{tex/00_previo.tex}
+
+\AtBeginSection[]
+{
+  \frame<handout:0>
+  {
+    \frametitle{Índice}
+    \tableofcontents[current]
+  }
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{\frametitle{Índice}\tableofcontents}
+\section{Introducción}
+\section{Unidad de rejillas configurable}
+	  \include{tex/01_Intro}
+\section{\CSUO{}: Optimizando apuntados}
+	  \include{tex/02_CSUOpt}
+\section{Resultados}
+	  \include{tex/03_Resultados}
+\section{Conclusiones}
+	  \include{tex/04_Conclusiones}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{
+  \centerline{\LARGE{\textbf{Gracias por su atención}}}
+}
+\frame{\titlepage}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

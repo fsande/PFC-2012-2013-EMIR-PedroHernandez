@@ -1,0 +1,10 @@
+- Datos de entrada
+- Cuantos objetos 'marca' el usuario?
+- Cuantas prioridades 'marca' el usuario?
+- El usuario ¿especifica solamente un punto, (x, y) o algo más (tamaño)?
+- Tamaño de la 'escena' de entrada y tamaños de las barras con respecto a ella
+- Grado mínimo de rotación de la escena
+- Función de coste que el usuario pide: todos los de prioridad mayor, todos en absoluto, etc.
+- La salida sería un vector de Rejillas R[N] con el desplazamiento de cada una de ellas
+- Cada configuración de rejillas ¿cuanto tiempo supone?
+- ¿Cuanto es un tiempo de respuesta aceptable para la solución?

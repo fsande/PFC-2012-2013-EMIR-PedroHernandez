@@ -1,0 +1,56 @@
+\ProvidesPackage{proyecto-docente}
+\RequirePackage{fancyhdr}
+
+\pagestyle{fancy}
+% 
+% Pongamos algunas cosas curiosillas en las cabeceras :-)
+%
+%\pagestyle{fancyplain}
+%\addtolength{\headwidth}{\marginparwidth}
+%\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection{} #1}}
+%\lhead[\fancyplain{}{\bfseries\thepage}]
+%    {\fancyplain{}{\bfseries\rightmark}}
+%\rhead[\fancyplain{}{\bfseries\leftmark}]
+%    {\fancyplain{}{\bfseries\thepage}}
+%\cfoot[]{}
+%\addtolength{\headheight}{1.6pt}
+
+\addtolength{\headwidth}{\marginparsep}
+%\addtolength{\headwidth}{\marginparwidth}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+\fancyhead[LE,RO]{\bfseries\thepage}
+\fancyhead[LO]{\bfseries\rightmark}
+\fancyhead[RE]{\bfseries\leftmark}
+\fancypagestyle{plain}{%
+  \fancyhead{} % get rid of headers
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+%
+%
+% Antes, los p'arrafos se separaban con algo de espacio
+%
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{1.5ex plus 0.7ex minus 0.6ex}
+
+% Espaciado interlineal
+% Valores originales de Vicente:
+%\def\ssp{\def\baselinestretch{1.0}\large\normalsize}
+%\def\dsp{\def\baselinestretch{1.15}\large\normalsize}
+%\def\dspg{\def\baselinestretch{1.18}\large\normalsize}
+%\def\titlesp{\def\baselinestretch{2}\large\normalsize}
+\def\ssp{\def\baselinestretch{1.0}\large\normalsize}
+\def\dsp{\def\baselinestretch{1.0}\large\normalsize}
+\def\dspg{\def\baselinestretch{1.18}\large\normalsize}
+\def\titlesp{\def\baselinestretch{1}\large\normalsize}
+
+%Definiciones
+\newcommand{\p}{\partial}
+\newcommand{\dis}{\displaystyle}
+\newcommand{\refe}[1]{(\ref{#1})}
+\newcommand{\norm}[2]{{\Vert #1 \Vert}_{#2}}
+\newcommand{\mat}[1]{\mbox{$\bf\sf #1$}}
+\renewcommand{\topfraction}{.9}

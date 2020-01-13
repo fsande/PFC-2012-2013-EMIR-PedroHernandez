@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include
+END
+LargeAsteroid.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/LargeAsteroid.hpp
+END
+Debug.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Debug.hpp
+END
+Resource.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Resource.hpp
+END
+UFO.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/UFO.hpp
+END
+collision.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/collision.hpp
+END
+Player.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Player.hpp
+END
+a5teroids.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/a5teroids.hpp
+END
+Input.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Input.hpp
+END
+PowerUp.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/PowerUp.hpp
+END
+Wave.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Wave.hpp
+END
+LargeBullet.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/LargeBullet.hpp
+END
+Game.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Game.hpp
+END
+Asteroid.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Asteroid.hpp
+END
+DisplayResource.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/DisplayResource.hpp
+END
+FontResource.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/FontResource.hpp
+END
+ButtonWidget.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/ButtonWidget.hpp
+END
+Explosion.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Explosion.hpp
+END
+ResourceManager.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/ResourceManager.hpp
+END
+Bullet.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Bullet.hpp
+END
+sound.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/sound.hpp
+END
+Weapon.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Weapon.hpp
+END
+SampleResource.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/SampleResource.hpp
+END
+logic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/logic.hpp
+END
+StreamResource.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/StreamResource.hpp
+END
+SmallAsteroid.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/SmallAsteroid.hpp
+END
+LargeSlowBullet.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/LargeSlowBullet.hpp
+END
+MediumAsteroid.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/MediumAsteroid.hpp
+END
+Entity.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Entity.hpp
+END
+render.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/render.hpp
+END
+SmallBullet.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/SmallBullet.hpp
+END
+Widget.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/Widget.hpp
+END
+gui.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/gui.hpp
+END
+BitmapResource.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/demos/a5teroids/include/BitmapResource.hpp
+END

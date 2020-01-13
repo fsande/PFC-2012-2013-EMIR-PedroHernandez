@@ -1,0 +1,101 @@
+10
+
+dir
+15834
+https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/5.0/addons
+https://alleg.svn.sourceforge.net/svnroot/alleg
+
+
+
+2012-06-24T06:14:08.560120Z
+15820
+tjaden
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+198e8dbc-0e07-0410-9fd0-dca9db973e3e
+
+image
+dir
+
+main
+dir
+
+native_dialog
+dir
+
+font
+dir
+
+kcm_audio
+dir
+
+primitives
+dir
+
+physfs
+dir
+
+ttf
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2012-09-12T12:35:53.000000Z
+cfad3835224dbcd1bbea3a5c893f04ec
+2011-03-06T11:14:52.139595Z
+14589
+tjaden
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4169
+
+acodec
+dir
+
+color
+dir
+
+memfile
+dir
+
+iio
+dir
+
+audio
+dir
+

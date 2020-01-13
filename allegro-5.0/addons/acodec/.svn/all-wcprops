@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/15769/allegro/branches/5.0/addons/acodec
+END
+flac.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15326/allegro/branches/5.0/addons/acodec/flac.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/14963/allegro/branches/5.0/addons/acodec/CMakeLists.txt
+END
+ogg.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15326/allegro/branches/5.0/addons/acodec/ogg.c
+END
+wav.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15769/allegro/branches/5.0/addons/acodec/wav.c
+END
+acodec.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/acodec/acodec.c
+END
+modaudio.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15326/allegro/branches/5.0/addons/acodec/modaudio.c
+END
+acodec.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/acodec/acodec.h
+END

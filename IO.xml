@@ -1,0 +1,32 @@
+<Observables width=3D"20000" height=3D"30000">
+<Elemento>
+<X> 500 </X>
+<Y> 400 </Y>
+<Prioridad> entre 0 (no observable) y 99 </Prioridad>
+</Elemento>
+...
+</Observables>
+
+En cuanto a la salida yo propuse la siguiente:
+
+<Apuntado>
+<Alpha> Coordenada para centrado </Alpha>
+<Delta> Coordenada para centrado </Delta>
+<PA> Angulo de rotaci=F3n </PA>
+<Configuracion>
+<Barra>
+<Centro> Posici=F3n en la que se encuentra el hueco entre las barras </Cent=
+ro>
+<Ancho> Ancho del hueco para conocer la posici=F3n de ambas barras </Ancho>
+</Barra>
+...
+</Configuracion>
+...
+</Apuntado>
+
+aunque H=E9ctor comenta que "la salida deberia ser un apuntado  en formato
+ascenci=F3n recta declinaci=F3n, (formato ra=3Dhh:mm:ss.sss
+dec=3D[+|-]dd:mm:ss.sss) y con un =E1ngulo de rotador (entre 0 y 360)". Per=
+o al
+menos la entrada queda clara.
+

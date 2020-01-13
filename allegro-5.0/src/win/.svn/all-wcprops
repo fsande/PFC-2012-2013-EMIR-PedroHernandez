@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/alleg/!svn/ver/15810/allegro/branches/5.0/src/win
+END
+wwindow.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/15759/allegro/branches/5.0/src/win/wwindow.c
+END
+wthread.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/14031/allegro/branches/5.0/src/win/wthread.c
+END
+wgl.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/win/wgl.h
+END
+wjoydrv.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/win/wjoydrv.c
+END
+wgl_disp.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15753/allegro/branches/5.0/src/win/wgl_disp.c
+END
+d3d_bmp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15758/allegro/branches/5.0/src/win/d3d_bmp.cpp
+END
+wsystem.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/15308/allegro/branches/5.0/src/win/wsystem.c
+END
+wmouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/alleg/!svn/ver/15097/allegro/branches/5.0/src/win/wmouse.c
+END
+d3d.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/14577/allegro/branches/5.0/src/win/d3d.h
+END
+wmcursor.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/14964/allegro/branches/5.0/src/win/wmcursor.c
+END
+wtime.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/alleg/!svn/ver/15740/allegro/branches/5.0/src/win/wtime.c
+END
+wxthread.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/win/wxthread.c
+END
+wkeyboard.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14922/allegro/branches/5.0/src/win/wkeyboard.c
+END
+wjoydxnu.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15740/allegro/branches/5.0/src/win/wjoydxnu.c
+END
+d3d_disp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15810/allegro/branches/5.0/src/win/d3d_disp.cpp
+END

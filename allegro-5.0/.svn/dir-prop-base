@@ -1,0 +1,46 @@
+K 9
+svk:merge
+V 518
+198e8dbc-0e07-0410-9fd0-dca9db973e3e:/allegro/branches/4.2:9593
+198e8dbc-0e07-0410-9fd0-dca9db973e3e:/allegro/branches/4.3:7871
+198e8dbc-0e07-0410-9fd0-dca9db973e3e:/allegro/branches/mouse_api:7535
+198e8dbc-0e07-0410-9fd0-dca9db973e3e:/allegro/branches/new_api_branch:5535
+198e8dbc-0e07-0410-9fd0-dca9db973e3e:/allegro/trunk:5530
+8d3ba03c-7807-0410-8be2-b1faa288ff92:/local/allegro-4.2:5601
+8d3ba03c-7807-0410-8be2-b1faa288ff92:/local/allegro-4.3:5549
+8d3ba03c-7807-0410-8be2-b1faa288ff92:/local/allegro-mouse_api:5644
+K 10
+svn:ignore
+V 359
+CMakeCache.txt
+CMakeError.log
+CMakeFiles
+CMakeOutput.log
+Makefile
+cmake_install.cmake
+makefile
+tmpfile.txt
+CHANGES
+allegro.mft
+configure
+config.log
+AUTHORS
+THANKS
+stamp-h
+config.cache
+makefile.dep
+config.status
+allegro5-config
+autom4te.cache
+readme.txt
+makefile.info
+*.pdb
+keyboard.dat
+language.dat
+.sconf_temp
+.sconsign.dblite
+build
+scons_build
+iphone-xcode
+
+END

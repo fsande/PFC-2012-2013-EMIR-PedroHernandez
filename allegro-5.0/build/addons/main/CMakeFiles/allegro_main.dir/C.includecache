@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sande/work/PROYECTOS_PFCs/Proyecto_Pedro-EMIR/allegro-5.0/addons/main/generic_main.c
+stdlib.h
+-
+

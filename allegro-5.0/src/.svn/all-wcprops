@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/alleg/!svn/ver/15815/allegro/branches/5.0/src
+END
+system.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/15309/allegro/branches/5.0/src/system.c
+END
+allegro.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/15730/allegro/branches/5.0/src/allegro.c
+END
+math.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/math.c
+END
+threads.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/threads.c
+END
+mousenu.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/14376/allegro/branches/5.0/src/mousenu.c
+END
+file_slice.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/alleg/!svn/ver/15307/allegro/branches/5.0/src/file_slice.c
+END
+keybdnu.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/15740/allegro/branches/5.0/src/keybdnu.c
+END
+tls.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/alleg/!svn/ver/15740/allegro/branches/5.0/src/tls.c
+END
+bitmap_io.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/alleg/!svn/ver/15742/allegro/branches/5.0/src/bitmap_io.c
+END
+joynu.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/alleg/!svn/ver/15075/allegro/branches/5.0/src/joynu.c
+END
+events.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/14579/allegro/branches/5.0/src/events.c
+END
+pixels.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/14417/allegro/branches/5.0/src/pixels.c
+END
+memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/memory.c
+END
+dtor.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/dtor.c
+END
+libc.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/libc.c
+END
+bitmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/15796/allegro/branches/5.0/src/bitmap.c
+END
+inline.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/inline.c
+END
+file.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/14168/allegro/branches/5.0/src/file.c
+END
+convert.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/convert.c
+END
+file_stdio.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/alleg/!svn/ver/15417/allegro/branches/5.0/src/file_stdio.c
+END
+scanline_drawers.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14891/allegro/branches/5.0/src/scanline_drawers.c
+END
+display_settings.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/15810/allegro/branches/5.0/src/display_settings.c
+END
+utf8.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/15795/allegro/branches/5.0/src/utf8.c
+END
+transformations.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14000/allegro/branches/5.0/src/transformations.c
+END
+fshook.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/fshook.c
+END
+memblit.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/14028/allegro/branches/5.0/src/memblit.c
+END
+tri_soft.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/alleg/!svn/ver/14031/allegro/branches/5.0/src/tri_soft.c
+END
+fshook_stdio.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/14966/allegro/branches/5.0/src/fshook_stdio.c
+END
+memdraw.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/memdraw.c
+END
+path.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/path.c
+END
+blenders.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/blenders.c
+END
+optimized.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/optimized.c
+END
+config.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/15795/allegro/branches/5.0/src/config.c
+END
+display.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/15811/allegro/branches/5.0/src/display.c
+END
+evtsrc.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/15740/allegro/branches/5.0/src/evtsrc.c
+END
+timernu.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/alleg/!svn/ver/14923/allegro/branches/5.0/src/timernu.c
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/alleg/!svn/ver/15814/allegro/branches/5.0/addons/image
+END
+macosx.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/15814/allegro/branches/5.0/addons/image/macosx.m
+END
+png.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15785/allegro/branches/5.0/addons/image/png.c
+END
+iio.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/image/iio.h
+END
+gdiplus.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15318/allegro/branches/5.0/addons/image/gdiplus.cpp
+END
+pcx.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15350/allegro/branches/5.0/addons/image/pcx.c
+END
+tga.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15739/allegro/branches/5.0/addons/image/tga.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/14591/allegro/branches/5.0/addons/image/CMakeLists.txt
+END
+iphone.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/15409/allegro/branches/5.0/addons/image/iphone.m
+END
+bmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15806/allegro/branches/5.0/addons/image/bmp.c
+END
+iio.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/image/iio.c
+END
+jpg.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15409/allegro/branches/5.0/addons/image/jpg.c
+END

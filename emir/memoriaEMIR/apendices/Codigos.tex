@@ -1,0 +1,282 @@
+%
+% ---------------------------------------------------
+%
+% Proyecto Final de Carrera: EMIR
+% Autor: Pedro Hernández Martín <alu3679@etsii.ull.es>
+% Capítulo: Añadidos a la memoria
+% Fichero: Apendices.tex
+%
+% ----------------------------------------------------
+%
+\chapter{Códigos}
+\section{\texttt{colisiones}} \label{app:colis}
+
+\begin{lstlisting}[language=C++, numbers=none,basicstyle=\ttfamily\footnotesize,
+                   caption={Código de la función que reduce las colisiones
+                   aleatorias},]
+set<CSU> colisiones (set<CSU> lista_ini, const int &total_puntos) {
+  static int finalizar;
+  finalizar = 0;
+  static set<Element> puntos, p_parcial;
+  static set<Element>::iterator p;
+  sort(lista_ini, TAMPUN);
+  static set<CSU>::iterator jt, it;
+  static set<CSU> porcion, no_coli;
+  set<CSU> lista_fin;
+  no_coli.clear();
+  while (finalizar != (lista_ini.size()+no_coli.size())) {
+    lista_fin.clear();
+    finalizar = lista_ini.size();
+    set<Element> eliminados;
+    eliminados.clear();
+    it = lista_ini.begin();
+    while (it != lista_ini.end()){
+      static bool quitable;
+      quitable = true;
+      jt = lista_ini.begin();
+      while (jt != lista_ini.end() && quitable){
+        if (it != jt && (it->colision(*jt) || jt->colision(*it))) //Si colisiona, no lo podemos quitar
+          quitable = false;
+        jt++;
+      }
+      if (quitable) {
+        lista_fin.insert(*it);
+        p_parcial = it->getPoints();
+        for (p = p_parcial.begin(); p != p_parcial.end(); p++) 
+          eliminados.insert(*p);
+        static set<CSU>::iterator borrar;
+        borrar = it; //Guardamos la posicion que se va a elimimar
+        it++; //pasamos a mirar la siguiente
+        lista_ini.erase(borrar); //    
+      }                                
+      else                             
+        it++;                          
+    }                                  
+    while (eliminados.size() != total_puntos) { //mientras queden puntos por mirar
+      puntos.clear();
+      p_parcial.clear();
+      porcion.clear();
+      it = lista_ini.begin(); //it es el principio de la lista de CSUs
+		  // Cogemos los puntos del primero y los colocamos en la lista de mejora 
+      p_parcial = it->getPoints(); //p_parcial son todos los puntos de la primera CSU
+      for (p = p_parcial.begin(); p != p_parcial.end(); p++)
+        puntos.insert(*p); //insertamos todos los puntos de la primera CSU en los totales
+      porcion.insert(*it); //Ponemos esa CSU en el grupo que se va a mirar
+      CSU ini = *it; //Almacenamos la primera CSU
+      lista_ini.erase(it); //Borramos la CSU de la lista total
+      jt = lista_ini.begin(); //jt es el principio de la lista de CSUs
+      // Seleccionamos todos aquellos que colisionan con el anteriormente seleccionado
+      while(!lista_ini.empty() && jt != lista_ini.end()) { //comprobamos cada uno con el primero de la lista
+        if (ini.colision(*jt) || jt->colision(ini)) {
+          porcion.insert(*jt); //Ponemos esa CSU en el grupo que se va a mirar
+          p_parcial = jt->getPoints(); //p_parcial son los puntos de esa CSU
+          for (p = p_parcial.begin(); p != p_parcial.end(); p++) 
+            puntos.insert(*p); //Aniadimos los puntos al total
+          static set<CSU>::iterator borrar;
+          borrar = jt; //Guardamos la posicion que se va a elimimar
+          jt++; //pasamos a mirar la siguiente
+          lista_ini.erase(borrar); //
+        }
+        else {
+          jt++;
+        }
+      }
+      static bool continuar;
+      continuar = true;
+      // Si la colision no es necesaria teoricamente, se intenta reducir
+      if (puntos.size()/NUM_BARRAS < porcion.size()) {
+        static bool izq_menor;
+        static CSU final;
+        static set<CSU>::iterator fin;
+        fin = porcion.end();
+        fin--;
+        final = *fin;
+        izq_menor = (ini.gety() < final.gety())? true : false;
+        set<CSU> nuevos = sacar_apuntados(puntos);
+        sort(nuevos, TAMPUN);
+        //Si se ha conseguido mejorar, volvemos a insertarlos para remirarlos
+        if ((nuevos.size() < porcion.size()) || (nuevos.size() == porcion.size() && nuevos.begin()->size() > porcion.begin()->size())) {
+          continuar = false;
+          porcion = nuevos;
+          for (it = porcion.begin(); it != porcion.end(); it++)
+            lista_ini.insert(*it);
+        }
+      }
+      // Si no se ha conseguido mejorar o la colision en necesaria, quitamos la primera CSU
+      if (continuar) {
+        it = porcion.begin();
+        lista_fin.insert(*it);
+        p_parcial = it->getPoints();
+        for (p = p_parcial.begin(); p != p_parcial.end(); p++) {
+          eliminados.insert(*p);
+        }
+        porcion.erase(it);
+        for (it = porcion.begin(); it != porcion.end(); it++)
+          lista_ini.insert(*it);
+      }
+    }
+    lista_ini = lista_fin;
+  }
+  return lista_fin;
+}
+
+\end{lstlisting}
+
+\section{\texttt{grasp}} \label{app:grasp}
+
+\begin{lstlisting}[language=C++, numbers=none,basicstyle=\ttfamily\footnotesize,
+                   caption={Método heurístico GRASP},]
+set<CSU> grasp (set<CSU> resultado, set<Element> puntos) {
+  int num_sol = 5;
+  int tam_entrada = resultado.size();
+  sort(resultado, TAMPUN);
+  set<CSU> posibles, lista[num_sol], final;
+  static set<CSU>::iterator it, jt, borrar;
+  set<Element> p_finales;
+  //PASO 1: generar N soluciones
+  for (int i = 0; i < num_sol; i++)
+    lista[i] = apuntadosRandom(puntos, i);
+  //PASO 2: buscar mejor solucion
+  for (int i = 0; i < num_sol; i++)
+    if (lista[i].size() < resultado.size())
+      resultado = lista[i];
+  set<CSU> resultado_previo = resultado;
+  //inicializar la solucion final
+  it = resultado.begin();
+  while (it != resultado.end()) {
+      progreso();
+    jt = it;
+    jt ++;
+    static bool col;
+    col = false;
+    while (jt != resultado.end() && !col) {
+      progreso();
+      if (it->colision(*jt) || jt->colision(*it))
+        col = true;
+      jt++;
+    }
+    if (!col) {
+      final.insert(*it);
+      static set<Element> contar;
+      contar = it->getPoints();
+      for (set<Element>::iterator cc = contar.begin(); cc != contar.end(); cc++)
+        p_finales.insert(*cc);
+      borrar = it;
+      it++;
+      resultado.erase(borrar);
+    }
+    else
+      it++;
+  }
+  //PASO 3: Aniadir los restantes de S1 a la RCL
+  for (it = resultado.begin(); it != resultado.end(); it++)
+    posibles.insert(*it);
+  for (int i = 0; i < num_sol; i++)
+    for(it = lista[i].begin(); it != lista[i].end(); it++)
+      posibles.insert(*it);
+  //PASO 4: Seleccionar elementos de la RCL hasta que se cubran todos los puntos
+  while (p_finales.size() != puntos.size()) {
+    progreso();
+    static int tam_point_max, limite;
+    it = jt = posibles.begin();
+    tam_point_max = it->size();
+    limite = 0;
+    it++;
+    while (it->size() == tam_point_max) {
+      it++;
+      limite++;
+    }
+    if (limite != 0)
+      limite = rand() % limite;
+    for (int i = 0;  i < limite; i++)
+      jt++;
+    final.insert(*jt);
+    static set<Element> contar;
+    contar = it->getPoints();
+    for (set<Element>::iterator cc = contar.begin(); cc != contar.end(); cc++)
+      p_finales.insert(*cc);
+    posibles.erase(jt);
+  }}
+  //PASO 5: Intentar mejorar el resultado obtenido.
+  posibles.clear();
+  posibles = final;
+  posibles = colisiones(posibles, puntos.size());
+  if (posibles.size() < resultado_previo.size()) {
+    cout << "Mejorado con " << posibles.size() << endl;
+    return posibles;
+  }
+  else {
+    cout << "GRASP inutil" << endl;
+    return resultado_previo;
+  }
+}
+
+\end{lstlisting}
+
+\section{Salida \texttt{exacto.xml}} \label{app:exacto.xml}
+
+\begin{lstlisting}[language=XML, basicstyle=\ttfamily\footnotesize]
+<Apuntado>
+	<X>479.1</X>
+	<Y>598.787</Y>
+	<PA>0</PA>
+	<Configuracion>
+		<Barra>93.9</Barra>
+		<Barra>115.9</Barra>
+		<Barra>-21.1</Barra>
+		<Barra>-70.1</Barra>
+		<Barra>119.9</Barra>
+		<Barra>-76.1</Barra>
+		<Barra>94.9</Barra>
+		<Barra>55.9</Barra>
+		<Barra>-52.1</Barra>
+		<Barra>-17.1</Barra>
+		<Barra>65.9</Barra>
+		<Barra>72.9</Barra>
+		<Barra>-25.1</Barra>
+		<Barra>-71.1</Barra>
+		<Barra>89.9</Barra>
+		<Barra>83.9</Barra>
+		<Barra>98.9</Barra>
+		<Barra>-23.1</Barra>
+		<Barra>112.9</Barra>
+		<Barra>-27.1</Barra>
+		<Barra>7.9</Barra>
+		<Barra>35.9</Barra>
+		<Barra>-67.1</Barra>
+		<Barra>29.9</Barra>
+		<Barra>46.9</Barra>
+		<Barra>109.9</Barra>
+		<Barra>-42.1</Barra>
+		<Barra>30.9</Barra>
+		<Barra>-25.1</Barra>
+		<Barra>-30.1</Barra>
+		<Barra>-37.1</Barra>
+		<Barra>-58.1</Barra>
+		<Barra>-3.1</Barra>
+		<Barra>6.9</Barra>
+		<Barra>24.9</Barra>
+		<Barra>8.9</Barra>
+		<Barra>-59.1</Barra>
+		<Barra>68.9</Barra>
+		<Barra>75.9</Barra>
+		<Barra>51.9</Barra>
+		<Barra>-60.1</Barra>
+		<Barra>11.9</Barra>
+		<Barra>21.9</Barra>
+		<Barra>-28.1</Barra>
+		<Barra>102.9</Barra>
+		<Barra>35.9</Barra>
+		<Barra>107.9</Barra>
+		<Barra>52.9</Barra>
+		<Barra>-36.1</Barra>
+		<Barra>-20.1</Barra>
+		<Barra>112.9</Barra>
+		<Barra>-9.1</Barra>
+		<Barra>117.9</Barra>
+		<Barra>86.9</Barra>
+		<Barra>-70.1</Barra>
+	</Configuracion>
+</Apuntado>
+\end{lstlisting}
+

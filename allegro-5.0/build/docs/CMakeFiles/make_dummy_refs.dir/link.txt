@@ -1,0 +1,1 @@
+/usr/bin/gcc   -msse -W -Wall  -O2 -g    CMakeFiles/make_dummy_refs.dir/scripts/make_dummy_refs.c.o CMakeFiles/make_dummy_refs.dir/scripts/aatree.c.o CMakeFiles/make_dummy_refs.dir/scripts/dawk.c.o CMakeFiles/make_dummy_refs.dir/scripts/trex.c.o  -o make_dummy_refs -rdynamic 

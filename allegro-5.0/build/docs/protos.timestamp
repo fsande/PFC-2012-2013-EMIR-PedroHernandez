@@ -1,0 +1,911 @@
+al_install_system: bool al_install_system(int version, int (*atexit_ptr)(void (*)(void)))
+al_uninstall_system: void al_uninstall_system(void)
+al_is_system_installed: bool al_is_system_installed(void)
+al_get_system_config: ALLEGRO_CONFIG *al_get_system_config(void)
+al_get_standard_path: ALLEGRO_PATH *al_get_standard_path(int id)
+al_set_exe_name: void al_set_exe_name(char const *path)
+al_set_org_name: void al_set_org_name(const char *org_name)
+al_set_app_name: void al_set_app_name(const char *app_name)
+al_get_org_name: const char *al_get_org_name(void)
+al_get_app_name: const char *al_get_app_name(void)
+al_inhibit_screensaver: bool al_inhibit_screensaver(bool inhibit)
+al_get_opengl_texture: GLuint al_get_opengl_texture(ALLEGRO_BITMAP *bitmap)
+al_remove_opengl_fbo: void al_remove_opengl_fbo(ALLEGRO_BITMAP *bitmap)
+al_get_opengl_fbo: GLuint al_get_opengl_fbo(ALLEGRO_BITMAP *bitmap)
+al_get_opengl_texture_size: void al_get_opengl_texture_size(ALLEGRO_BITMAP *bitmap, int *w, int *h)
+al_get_opengl_texture_position: void al_get_opengl_texture_position(ALLEGRO_BITMAP *bitmap, int *u, int *v)
+al_get_opengl_version: uint32_t al_get_opengl_version(void)
+al_get_opengl_variant: int al_get_opengl_variant(void)
+al_have_opengl_extension: bool al_have_opengl_extension(const char *extension)
+al_get_opengl_proc_address: void *al_get_opengl_proc_address(const char *name)
+al_get_opengl_extension_list: ALLEGRO_OGL_EXT_LIST *al_get_opengl_extension_list(void)
+al_set_current_opengl_context: void al_set_current_opengl_context(ALLEGRO_DISPLAY *display)
+al_fopen_fd: ALLEGRO_FILE *al_fopen_fd(int fd, const char *mode)
+al_set_standard_file_interface: void al_set_standard_file_interface(void)
+al_make_temp_file: ALLEGRO_FILE *al_make_temp_file(const char *template, ALLEGRO_PATH **ret_path)
+al_register_bitmap_loader: bool al_register_bitmap_loader(const char *extension,
+al_register_bitmap_loader:    ALLEGRO_BITMAP *(*loader)(const char *filename))
+al_register_bitmap_saver: bool al_register_bitmap_saver(const char *extension,
+al_register_bitmap_saver:    bool (*saver)(const char *filename, ALLEGRO_BITMAP *bmp))
+al_register_bitmap_loader_f: bool al_register_bitmap_loader_f(const char *extension,
+al_register_bitmap_loader_f:    ALLEGRO_BITMAP *(*loader_f)(ALLEGRO_FILE *fp))
+al_register_bitmap_saver_f: bool al_register_bitmap_saver_f(const char *extension,
+al_register_bitmap_saver_f:    bool (*saver_f)(ALLEGRO_FILE *fp, ALLEGRO_BITMAP *bmp))
+al_load_bitmap: ALLEGRO_BITMAP *al_load_bitmap(const char *filename)
+al_save_bitmap: bool al_save_bitmap(const char *filename, ALLEGRO_BITMAP *bitmap)
+al_load_bitmap_f: ALLEGRO_BITMAP *al_load_bitmap_f(ALLEGRO_FILE *fp, const char *ident)
+al_save_bitmap_f: bool al_save_bitmap_f(ALLEGRO_FILE *fp, const char *ident,
+al_save_bitmap_f:    ALLEGRO_BITMAP *bitmap)
+al_register_assert_handler: void al_register_assert_handler(void (*handler)(char const *expr,
+al_register_assert_handler:    char const *file, int line, char const *func))
+al_get_allegro_version: uint32_t al_get_allegro_version(void)
+al_run_main: int al_run_main(int argc, char **argv, int (*user_main)(int, char **))
+al_fopen_slice: ALLEGRO_FILE *al_fopen_slice(ALLEGRO_FILE *fp, size_t initial_size, const char *mode)
+al_is_keyboard_installed: bool al_is_keyboard_installed(void)
+al_install_keyboard: bool al_install_keyboard(void)
+al_uninstall_keyboard: void al_uninstall_keyboard(void)
+al_set_keyboard_leds: bool al_set_keyboard_leds(int leds)
+al_keycode_to_name: const char *al_keycode_to_name(int keycode)
+al_get_keyboard_state: void al_get_keyboard_state(ALLEGRO_KEYBOARD_STATE *ret_state)
+al_key_down: bool al_key_down(const ALLEGRO_KEYBOARD_STATE *state, int keycode)
+al_get_keyboard_event_source: ALLEGRO_EVENT_SOURCE *al_get_keyboard_event_source(void)
+al_create_config: ALLEGRO_CONFIG *al_create_config(void)
+al_add_config_section: void al_add_config_section(ALLEGRO_CONFIG *config, const char *name)
+al_set_config_value: void al_set_config_value(ALLEGRO_CONFIG *config,
+al_set_config_value:    const char *section, const char *key, const char *value)
+al_add_config_comment: void al_add_config_comment(ALLEGRO_CONFIG *config,
+al_add_config_comment:    const char *section, const char *comment)
+al_get_config_value: const char *al_get_config_value(const ALLEGRO_CONFIG *config,
+al_get_config_value:    const char *section, const char *key)
+al_load_config_file: ALLEGRO_CONFIG *al_load_config_file(const char *filename)
+al_load_config_file_f: ALLEGRO_CONFIG *al_load_config_file_f(ALLEGRO_FILE *file)
+al_save_config_file: bool al_save_config_file(const char *filename, const ALLEGRO_CONFIG *config)
+al_save_config_file_f: bool al_save_config_file_f(ALLEGRO_FILE *file, const ALLEGRO_CONFIG *config)
+al_merge_config_into: void al_merge_config_into(ALLEGRO_CONFIG *master, const ALLEGRO_CONFIG *add)
+al_merge_config: ALLEGRO_CONFIG *al_merge_config(const ALLEGRO_CONFIG *cfg1,
+al_merge_config:     const ALLEGRO_CONFIG *cfg2)
+al_destroy_config: void al_destroy_config(ALLEGRO_CONFIG *config)
+al_get_first_config_section: char const *al_get_first_config_section(ALLEGRO_CONFIG const *config,
+al_get_first_config_section:    ALLEGRO_CONFIG_SECTION **iterator)
+al_get_next_config_section: char const *al_get_next_config_section(ALLEGRO_CONFIG_SECTION **iterator)
+al_get_first_config_entry: char const *al_get_first_config_entry(ALLEGRO_CONFIG const *config,
+al_get_first_config_entry:    char const *section, ALLEGRO_CONFIG_ENTRY **iterator)
+al_get_next_config_entry: char const *al_get_next_config_entry(ALLEGRO_CONFIG_ENTRY **iterator)
+al_create_thread: ALLEGRO_THREAD *al_create_thread(
+al_create_thread:    void *(*proc)(ALLEGRO_THREAD *thread, void *arg), void *arg)
+al_run_detached_thread: void al_run_detached_thread(void *(*proc)(void *arg), void *arg)
+al_start_thread: void al_start_thread(ALLEGRO_THREAD *thread)
+al_join_thread: void al_join_thread(ALLEGRO_THREAD *thread, void **ret_value)
+al_set_thread_should_stop: void al_set_thread_should_stop(ALLEGRO_THREAD *thread)
+al_get_thread_should_stop: bool al_get_thread_should_stop(ALLEGRO_THREAD *thread)
+al_destroy_thread: void al_destroy_thread(ALLEGRO_THREAD *thread)
+al_create_mutex: ALLEGRO_MUTEX *al_create_mutex(void)
+al_create_mutex_recursive: ALLEGRO_MUTEX *al_create_mutex_recursive(void)
+al_lock_mutex: void al_lock_mutex(ALLEGRO_MUTEX *mutex)
+al_unlock_mutex: void al_unlock_mutex(ALLEGRO_MUTEX *mutex)
+al_destroy_mutex: void al_destroy_mutex(ALLEGRO_MUTEX *mutex)
+al_create_cond: ALLEGRO_COND *al_create_cond(void)
+al_destroy_cond: void al_destroy_cond(ALLEGRO_COND *cond)
+al_wait_cond: void al_wait_cond(ALLEGRO_COND *cond, ALLEGRO_MUTEX *mutex)
+al_wait_cond_until: int al_wait_cond_until(ALLEGRO_COND *cond, ALLEGRO_MUTEX *mutex,
+al_wait_cond_until:    const ALLEGRO_TIMEOUT *timeout)
+al_broadcast_cond: void al_broadcast_cond(ALLEGRO_COND *cond)
+al_signal_cond: void al_signal_cond(ALLEGRO_COND *cond)
+al_copy_transform: void al_copy_transform(ALLEGRO_TRANSFORM *dest, const ALLEGRO_TRANSFORM *src)
+al_use_transform: void al_use_transform(const ALLEGRO_TRANSFORM *trans)
+al_get_current_transform: const ALLEGRO_TRANSFORM *al_get_current_transform(void)
+al_identity_transform: void al_identity_transform(ALLEGRO_TRANSFORM *trans)
+al_build_transform: void al_build_transform(ALLEGRO_TRANSFORM *trans, float x, float y,
+al_build_transform:    float sx, float sy, float theta)
+al_invert_transform: void al_invert_transform(ALLEGRO_TRANSFORM *trans)
+al_check_inverse: int al_check_inverse(const ALLEGRO_TRANSFORM *trans, float tol)
+al_translate_transform: void al_translate_transform(ALLEGRO_TRANSFORM *trans, float x, float y)
+al_rotate_transform: void al_rotate_transform(ALLEGRO_TRANSFORM *trans, float theta)
+al_scale_transform: void al_scale_transform(ALLEGRO_TRANSFORM *trans, float sx, float sy)
+al_transform_coordinates: void al_transform_coordinates(const ALLEGRO_TRANSFORM *trans, float *x, float *y)
+al_compose_transform: void al_compose_transform(ALLEGRO_TRANSFORM *trans, const ALLEGRO_TRANSFORM *other)
+al_ustr_new: ALLEGRO_USTR *al_ustr_new(const char *s)
+al_ustr_new_from_buffer: ALLEGRO_USTR *al_ustr_new_from_buffer(const char *s, size_t size)
+al_ustr_newf: ALLEGRO_USTR *al_ustr_newf(const char *fmt, ...)
+al_ustr_free: void al_ustr_free(ALLEGRO_USTR *us)
+al_cstr: const char *al_cstr(const ALLEGRO_USTR *us)
+al_ustr_to_buffer: void al_ustr_to_buffer(const ALLEGRO_USTR *us, char *buffer, int size)
+al_cstr_dup: char *al_cstr_dup(const ALLEGRO_USTR *us)
+al_ustr_dup: ALLEGRO_USTR *al_ustr_dup(const ALLEGRO_USTR *us)
+al_ustr_dup_substr: ALLEGRO_USTR *al_ustr_dup_substr(const ALLEGRO_USTR *us, int start_pos,
+al_ustr_dup_substr:    int end_pos)
+al_ustr_empty_string: const ALLEGRO_USTR *al_ustr_empty_string(void)
+al_ref_cstr: const ALLEGRO_USTR *al_ref_cstr(ALLEGRO_USTR_INFO *info, const char *s)
+al_ref_buffer: const ALLEGRO_USTR *al_ref_buffer(ALLEGRO_USTR_INFO *info, const char *s, size_t size)
+al_ref_ustr: const ALLEGRO_USTR *al_ref_ustr(ALLEGRO_USTR_INFO *info, const ALLEGRO_USTR *us,
+al_ref_ustr:    int start_pos, int end_pos)
+al_ustr_size: size_t al_ustr_size(const ALLEGRO_USTR *us)
+al_ustr_length: size_t al_ustr_length(const ALLEGRO_USTR *us)
+al_ustr_offset: int al_ustr_offset(const ALLEGRO_USTR *us, int index)
+al_ustr_next: bool al_ustr_next(const ALLEGRO_USTR *us, int *pos)
+al_ustr_prev: bool al_ustr_prev(const ALLEGRO_USTR *us, int *pos)
+al_ustr_get: int32_t al_ustr_get(const ALLEGRO_USTR *ub, int pos)
+al_ustr_get_next: int32_t al_ustr_get_next(const ALLEGRO_USTR *us, int *pos)
+al_ustr_prev_get: int32_t al_ustr_prev_get(const ALLEGRO_USTR *us, int *pos)
+al_ustr_insert: bool al_ustr_insert(ALLEGRO_USTR *us1, int pos, const ALLEGRO_USTR *us2)
+al_ustr_insert_cstr: bool al_ustr_insert_cstr(ALLEGRO_USTR *us, int pos, const char *s)
+al_ustr_insert_chr: size_t al_ustr_insert_chr(ALLEGRO_USTR *us, int pos, int32_t c)
+al_ustr_append: bool al_ustr_append(ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2)
+al_ustr_append_cstr: bool al_ustr_append_cstr(ALLEGRO_USTR *us, const char *s)
+al_ustr_append_chr: size_t al_ustr_append_chr(ALLEGRO_USTR *us, int32_t c)
+al_ustr_appendf: bool al_ustr_appendf(ALLEGRO_USTR *us, const char *fmt, ...)
+al_ustr_vappendf: bool al_ustr_vappendf(ALLEGRO_USTR *us, const char *fmt, va_list ap)
+al_ustr_remove_chr: bool al_ustr_remove_chr(ALLEGRO_USTR *us, int pos)
+al_ustr_remove_range: bool al_ustr_remove_range(ALLEGRO_USTR *us, int start_pos, int end_pos)
+al_ustr_truncate: bool al_ustr_truncate(ALLEGRO_USTR *us, int start_pos)
+al_ustr_ltrim_ws: bool al_ustr_ltrim_ws(ALLEGRO_USTR *us)
+al_ustr_rtrim_ws: bool al_ustr_rtrim_ws(ALLEGRO_USTR *us)
+al_ustr_trim_ws: bool al_ustr_trim_ws(ALLEGRO_USTR *us)
+al_ustr_assign: bool al_ustr_assign(ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2)
+al_ustr_assign_substr: bool al_ustr_assign_substr(ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2,
+al_ustr_assign_substr:    int start_pos, int end_pos)
+al_ustr_assign_cstr: bool al_ustr_assign_cstr(ALLEGRO_USTR *us1, const char *s)
+al_ustr_set_chr: size_t al_ustr_set_chr(ALLEGRO_USTR *us, int start_pos, int32_t c)
+al_ustr_replace_range: bool al_ustr_replace_range(ALLEGRO_USTR *us1, int start_pos1, int end_pos1,
+al_ustr_replace_range:    const ALLEGRO_USTR *us2)
+al_ustr_find_chr: int al_ustr_find_chr(const ALLEGRO_USTR *us, int start_pos, int32_t c)
+al_ustr_rfind_chr: int al_ustr_rfind_chr(const ALLEGRO_USTR *us, int end_pos, int32_t c)
+al_ustr_find_set: int al_ustr_find_set(const ALLEGRO_USTR *us, int start_pos,
+al_ustr_find_set:    const ALLEGRO_USTR *accept)
+al_ustr_find_set_cstr: int al_ustr_find_set_cstr(const ALLEGRO_USTR *us, int start_pos,
+al_ustr_find_set_cstr:    const char *accept)
+al_ustr_find_cset: int al_ustr_find_cset(const ALLEGRO_USTR *us, int start_pos,
+al_ustr_find_cset:    const ALLEGRO_USTR *reject)
+al_ustr_find_cset_cstr: int al_ustr_find_cset_cstr(const ALLEGRO_USTR *us, int start_pos,
+al_ustr_find_cset_cstr:    const char *reject)
+al_ustr_find_str: int al_ustr_find_str(const ALLEGRO_USTR *haystack, int start_pos,
+al_ustr_find_str:    const ALLEGRO_USTR *needle)
+al_ustr_find_cstr: int al_ustr_find_cstr(const ALLEGRO_USTR *haystack, int start_pos,
+al_ustr_find_cstr:    const char *needle)
+al_ustr_rfind_str: int al_ustr_rfind_str(const ALLEGRO_USTR *haystack, int end_pos,
+al_ustr_rfind_str:    const ALLEGRO_USTR *needle)
+al_ustr_rfind_cstr: int al_ustr_rfind_cstr(const ALLEGRO_USTR *haystack, int end_pos,
+al_ustr_rfind_cstr:    const char *needle)
+al_ustr_find_replace: bool al_ustr_find_replace(ALLEGRO_USTR *us, int start_pos,
+al_ustr_find_replace:    const ALLEGRO_USTR *find, const ALLEGRO_USTR *replace)
+al_ustr_find_replace_cstr: bool al_ustr_find_replace_cstr(ALLEGRO_USTR *us, int start_pos,
+al_ustr_find_replace_cstr:    const char *find, const char *replace)
+al_ustr_equal: bool al_ustr_equal(const ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2)
+al_ustr_compare: int al_ustr_compare(const ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2)
+al_ustr_ncompare: int al_ustr_ncompare(const ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2, int n)
+al_ustr_has_prefix: bool al_ustr_has_prefix(const ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2)
+al_ustr_has_prefix_cstr: bool al_ustr_has_prefix_cstr(const ALLEGRO_USTR *us1, const char *s2)
+al_ustr_has_suffix: bool al_ustr_has_suffix(const ALLEGRO_USTR *us1, const ALLEGRO_USTR *us2)
+al_ustr_has_suffix_cstr: bool al_ustr_has_suffix_cstr(const ALLEGRO_USTR *us1, const char *s2)
+al_utf8_width: size_t al_utf8_width(int c)
+al_utf8_encode: size_t al_utf8_encode(char s[], int32_t c)
+al_utf16_width: size_t al_utf16_width(int c)
+al_utf16_encode: size_t al_utf16_encode(uint16_t s[], int32_t c)
+al_ustr_new_from_utf16: ALLEGRO_USTR *al_ustr_new_from_utf16(uint16_t const *s)
+al_ustr_size_utf16: size_t al_ustr_size_utf16(const ALLEGRO_USTR *us)
+al_ustr_encode_utf16: size_t al_ustr_encode_utf16(const ALLEGRO_USTR *us, uint16_t *s,
+al_ustr_encode_utf16:    size_t n)
+al_fopen: ALLEGRO_FILE *al_fopen(const char *path, const char *mode)
+al_fopen_interface: ALLEGRO_FILE *al_fopen_interface(const ALLEGRO_FILE_INTERFACE *drv,
+al_fopen_interface:    const char *path, const char *mode)
+al_create_file_handle: ALLEGRO_FILE *al_create_file_handle(const ALLEGRO_FILE_INTERFACE *drv,
+al_create_file_handle:    void *userdata)
+al_fclose: void al_fclose(ALLEGRO_FILE *f)
+al_fread: size_t al_fread(ALLEGRO_FILE *f, void *ptr, size_t size)
+al_fwrite: size_t al_fwrite(ALLEGRO_FILE *f, const void *ptr, size_t size)
+al_fflush: bool al_fflush(ALLEGRO_FILE *f)
+al_ftell: int64_t al_ftell(ALLEGRO_FILE *f)
+al_fseek: bool al_fseek(ALLEGRO_FILE *f, int64_t offset, int whence)
+al_feof: bool al_feof(ALLEGRO_FILE *f)
+al_ferror: bool al_ferror(ALLEGRO_FILE *f)
+al_fclearerr: void al_fclearerr(ALLEGRO_FILE *f)
+al_fgetc: int al_fgetc(ALLEGRO_FILE *f)
+al_fputc: int al_fputc(ALLEGRO_FILE *f, int c)
+al_fread16le: int16_t al_fread16le(ALLEGRO_FILE *f)
+al_fread32le: int32_t al_fread32le(ALLEGRO_FILE *f)
+al_fwrite16le: size_t al_fwrite16le(ALLEGRO_FILE *f, int16_t w)
+al_fwrite32le: size_t al_fwrite32le(ALLEGRO_FILE *f, int32_t l)
+al_fread16be: int16_t al_fread16be(ALLEGRO_FILE *f)
+al_fread32be: int32_t al_fread32be(ALLEGRO_FILE *f)
+al_fwrite16be: size_t al_fwrite16be(ALLEGRO_FILE *f, int16_t w)
+al_fwrite32be: size_t al_fwrite32be(ALLEGRO_FILE *f, int32_t l)
+al_fgets: char *al_fgets(ALLEGRO_FILE *f, char * const buf, size_t max)
+al_fget_ustr: ALLEGRO_USTR *al_fget_ustr(ALLEGRO_FILE *f)
+al_fputs: int al_fputs(ALLEGRO_FILE *f, char const *p)
+al_fungetc: int al_fungetc(ALLEGRO_FILE *f, int c)
+al_fsize: int64_t al_fsize(ALLEGRO_FILE *f)
+al_get_file_userdata: void *al_get_file_userdata(ALLEGRO_FILE *f)
+al_install_joystick: bool al_install_joystick(void)
+al_uninstall_joystick: void al_uninstall_joystick(void)
+al_is_joystick_installed: bool al_is_joystick_installed(void)
+al_reconfigure_joysticks: bool al_reconfigure_joysticks(void)
+al_get_joystick_event_source: ALLEGRO_EVENT_SOURCE *al_get_joystick_event_source(void)
+al_get_num_joysticks: int al_get_num_joysticks(void)
+al_get_joystick: ALLEGRO_JOYSTICK * al_get_joystick(int num)
+al_release_joystick: void al_release_joystick(ALLEGRO_JOYSTICK *joy)
+al_get_joystick_active: bool al_get_joystick_active(ALLEGRO_JOYSTICK *joy)
+al_get_joystick_name: const char *al_get_joystick_name(ALLEGRO_JOYSTICK *joy)
+al_get_joystick_num_sticks: int al_get_joystick_num_sticks(ALLEGRO_JOYSTICK *joy)
+al_get_joystick_stick_flags: int al_get_joystick_stick_flags(ALLEGRO_JOYSTICK *joy, int stick)
+al_get_joystick_stick_name: const char *al_get_joystick_stick_name(ALLEGRO_JOYSTICK *joy, int stick)
+al_get_joystick_num_axes: int al_get_joystick_num_axes(ALLEGRO_JOYSTICK *joy, int stick)
+al_get_joystick_axis_name: const char *al_get_joystick_axis_name(ALLEGRO_JOYSTICK *joy, int stick, int axis)
+al_get_joystick_num_buttons: int al_get_joystick_num_buttons(ALLEGRO_JOYSTICK *joy)
+al_get_joystick_button_name: const char *al_get_joystick_button_name(ALLEGRO_JOYSTICK *joy, int button)
+al_get_joystick_state: void al_get_joystick_state(ALLEGRO_JOYSTICK *joy, ALLEGRO_JOYSTICK_STATE *ret_state)
+al_create_display: ALLEGRO_DISPLAY *al_create_display(int w, int h)
+al_destroy_display: void al_destroy_display(ALLEGRO_DISPLAY *display)
+al_get_backbuffer: ALLEGRO_BITMAP *al_get_backbuffer(ALLEGRO_DISPLAY *display)
+al_flip_display: void al_flip_display(void)
+al_update_display_region: void al_update_display_region(int x, int y, int width, int height)
+al_acknowledge_resize: bool al_acknowledge_resize(ALLEGRO_DISPLAY *display)
+al_resize_display: bool al_resize_display(ALLEGRO_DISPLAY *display, int width, int height)
+al_clear_to_color: void al_clear_to_color(ALLEGRO_COLOR color)
+al_draw_pixel: void al_draw_pixel(float x, float y, ALLEGRO_COLOR color)
+al_is_compatible_bitmap: bool al_is_compatible_bitmap(ALLEGRO_BITMAP *bitmap)
+al_get_display_width: int al_get_display_width(ALLEGRO_DISPLAY *display)
+al_get_display_height: int al_get_display_height(ALLEGRO_DISPLAY *display)
+al_get_display_format: int al_get_display_format(ALLEGRO_DISPLAY *display)
+al_get_display_refresh_rate: int al_get_display_refresh_rate(ALLEGRO_DISPLAY *display)
+al_get_display_flags: int al_get_display_flags(ALLEGRO_DISPLAY *display)
+al_get_num_display_modes: int al_get_num_display_modes(void)
+al_get_display_mode: ALLEGRO_DISPLAY_MODE *al_get_display_mode(int index, ALLEGRO_DISPLAY_MODE *mode)
+al_wait_for_vsync: bool al_wait_for_vsync(void)
+al_set_display_icon: void al_set_display_icon(ALLEGRO_DISPLAY *display, ALLEGRO_BITMAP *icon)
+al_get_num_video_adapters: int al_get_num_video_adapters(void)
+al_get_monitor_info: bool al_get_monitor_info(int adapter, ALLEGRO_MONITOR_INFO *info)
+al_set_window_position: void al_set_window_position(ALLEGRO_DISPLAY *display, int x, int y)
+al_get_window_position: void al_get_window_position(ALLEGRO_DISPLAY *display, int *x, int *y)
+al_set_display_flag: bool al_set_display_flag(ALLEGRO_DISPLAY *display, int flag, bool onoff)
+al_toggle_display_flag: bool al_toggle_display_flag(ALLEGRO_DISPLAY *display, int flag, bool onoff)
+al_set_window_title: void al_set_window_title(ALLEGRO_DISPLAY *display, const char *title)
+al_get_display_event_source: ALLEGRO_EVENT_SOURCE *al_get_display_event_source(ALLEGRO_DISPLAY *display)
+al_hold_bitmap_drawing: void al_hold_bitmap_drawing(bool hold)
+al_is_bitmap_drawing_held: bool al_is_bitmap_drawing_held(void)
+al_create_path: ALLEGRO_PATH *al_create_path(const char *str)
+al_create_path_for_directory: ALLEGRO_PATH *al_create_path_for_directory(const char *str)
+al_clone_path: ALLEGRO_PATH *al_clone_path(const ALLEGRO_PATH *path)
+al_get_path_num_components: int al_get_path_num_components(const ALLEGRO_PATH *path)
+al_get_path_component: const char *al_get_path_component(const ALLEGRO_PATH *path, int i)
+al_replace_path_component: void al_replace_path_component(ALLEGRO_PATH *path, int i, const char *s)
+al_remove_path_component: void al_remove_path_component(ALLEGRO_PATH *path, int i)
+al_insert_path_component: void al_insert_path_component(ALLEGRO_PATH *path, int i, const char *s)
+al_get_path_tail: const char *al_get_path_tail(const ALLEGRO_PATH *path)
+al_drop_path_tail: void al_drop_path_tail(ALLEGRO_PATH *path)
+al_append_path_component: void al_append_path_component(ALLEGRO_PATH *path, const char *s)
+al_join_paths: bool al_join_paths(ALLEGRO_PATH *path, const ALLEGRO_PATH *tail)
+al_rebase_path: bool al_rebase_path(const ALLEGRO_PATH *head, ALLEGRO_PATH *tail)
+al_path_cstr: const char *al_path_cstr(const ALLEGRO_PATH *path, char delim)
+al_destroy_path: void al_destroy_path(ALLEGRO_PATH *path)
+al_set_path_drive: void al_set_path_drive(ALLEGRO_PATH *path, const char *drive)
+al_get_path_drive: const char *al_get_path_drive(const ALLEGRO_PATH *path)
+al_set_path_filename: void al_set_path_filename(ALLEGRO_PATH *path, const char *filename)
+al_get_path_filename: const char *al_get_path_filename(const ALLEGRO_PATH *path)
+al_get_path_extension: const char *al_get_path_extension(const ALLEGRO_PATH *path)
+al_set_path_extension: bool al_set_path_extension(ALLEGRO_PATH *path, char const *extension)
+al_get_path_basename: const char *al_get_path_basename(const ALLEGRO_PATH *path)
+al_make_path_canonical: bool al_make_path_canonical(ALLEGRO_PATH *path)
+al_init_user_event_source: void al_init_user_event_source(ALLEGRO_EVENT_SOURCE *src)
+al_destroy_user_event_source: void al_destroy_user_event_source(ALLEGRO_EVENT_SOURCE *src)
+al_emit_user_event: bool al_emit_user_event(ALLEGRO_EVENT_SOURCE *src,
+al_emit_user_event:    ALLEGRO_EVENT *event, void (*dtor)(ALLEGRO_USER_EVENT *))
+al_set_event_source_data: void al_set_event_source_data(ALLEGRO_EVENT_SOURCE *source, intptr_t data)
+al_get_event_source_data: intptr_t al_get_event_source_data(const ALLEGRO_EVENT_SOURCE *source)
+al_set_new_display_flags: void al_set_new_display_flags(int flags)
+al_get_new_display_flags: int al_get_new_display_flags(void)
+al_set_new_display_refresh_rate: void al_set_new_display_refresh_rate(int refresh_rate)
+al_get_new_display_refresh_rate: int al_get_new_display_refresh_rate(void)
+al_set_new_display_adapter: void al_set_new_display_adapter(int adapter)
+al_get_new_display_adapter: int al_get_new_display_adapter(void)
+al_set_new_window_position: void al_set_new_window_position(int x, int y)
+al_get_new_window_position: void al_get_new_window_position(int *x, int *y)
+al_get_current_display: ALLEGRO_DISPLAY *al_get_current_display(void)
+al_set_target_bitmap: void al_set_target_bitmap(ALLEGRO_BITMAP *bitmap)
+al_set_target_backbuffer: void al_set_target_backbuffer(ALLEGRO_DISPLAY *display)
+al_get_target_bitmap: ALLEGRO_BITMAP *al_get_target_bitmap(void)
+al_set_blender: void al_set_blender(int op, int src, int dst)
+al_set_separate_blender: void al_set_separate_blender(int op, int src, int dst,
+al_set_separate_blender:    int alpha_op, int alpha_src, int alpha_dst)
+al_get_blender: void al_get_blender(int *op, int *src, int *dst)
+al_get_separate_blender: void al_get_separate_blender(int *op, int *src, int *dst,
+al_get_separate_blender:    int *alpha_op, int *alpha_src, int *alpha_dst)
+al_set_new_bitmap_format: void al_set_new_bitmap_format(int format)
+al_set_new_bitmap_flags: void al_set_new_bitmap_flags(int flags)
+al_add_new_bitmap_flag: void al_add_new_bitmap_flag(int flag)
+al_get_new_bitmap_format: int al_get_new_bitmap_format(void)
+al_get_new_bitmap_flags: int al_get_new_bitmap_flags(void)
+al_store_state: void al_store_state(ALLEGRO_STATE *state, int flags)
+al_restore_state: void al_restore_state(ALLEGRO_STATE const *state)
+al_get_new_file_interface: const ALLEGRO_FILE_INTERFACE *al_get_new_file_interface(void)
+al_set_new_file_interface: void al_set_new_file_interface(const ALLEGRO_FILE_INTERFACE *file_interface)
+al_get_fs_interface: const ALLEGRO_FS_INTERFACE *al_get_fs_interface(void)
+al_set_fs_interface: void al_set_fs_interface(const ALLEGRO_FS_INTERFACE *fs_interface)
+al_get_errno: int al_get_errno(void)
+al_set_errno: void al_set_errno(int errnum)
+al_create_timer: ALLEGRO_TIMER *al_create_timer(double speed_secs)
+al_destroy_timer: void al_destroy_timer(ALLEGRO_TIMER *timer)
+al_start_timer: void al_start_timer(ALLEGRO_TIMER *timer)
+al_stop_timer: void al_stop_timer(ALLEGRO_TIMER *timer)
+al_get_timer_started: bool al_get_timer_started(const ALLEGRO_TIMER *timer)
+al_get_timer_speed: double al_get_timer_speed(const ALLEGRO_TIMER *timer)
+al_set_timer_speed: void al_set_timer_speed(ALLEGRO_TIMER *timer, double new_speed_secs)
+al_get_timer_count: int64_t al_get_timer_count(const ALLEGRO_TIMER *timer)
+al_set_timer_count: void al_set_timer_count(ALLEGRO_TIMER *timer, int64_t new_count)
+al_add_timer_count: void al_add_timer_count(ALLEGRO_TIMER *timer, int64_t diff)
+al_get_timer_event_source: ALLEGRO_EVENT_SOURCE *al_get_timer_event_source(ALLEGRO_TIMER *timer)
+al_set_standard_fs_interface: void al_set_standard_fs_interface(void)
+al_iphone_program_has_halted: void al_iphone_program_has_halted(void)
+al_iphone_override_screen_scale: void al_iphone_override_screen_scale(float scale)
+al_create_fs_entry: ALLEGRO_FS_ENTRY *al_create_fs_entry(const char *path)
+al_destroy_fs_entry: void al_destroy_fs_entry(ALLEGRO_FS_ENTRY *fh)
+al_get_fs_entry_name: const char *al_get_fs_entry_name(ALLEGRO_FS_ENTRY *e)
+al_update_fs_entry: bool al_update_fs_entry(ALLEGRO_FS_ENTRY *e)
+al_get_fs_entry_mode: uint32_t al_get_fs_entry_mode(ALLEGRO_FS_ENTRY *e)
+al_get_fs_entry_atime: time_t al_get_fs_entry_atime(ALLEGRO_FS_ENTRY *e)
+al_get_fs_entry_mtime: time_t al_get_fs_entry_mtime(ALLEGRO_FS_ENTRY *e)
+al_get_fs_entry_ctime: time_t al_get_fs_entry_ctime(ALLEGRO_FS_ENTRY *e)
+al_get_fs_entry_size: off_t al_get_fs_entry_size(ALLEGRO_FS_ENTRY *e)
+al_remove_fs_entry: bool al_remove_fs_entry(ALLEGRO_FS_ENTRY *e)
+al_fs_entry_exists: bool al_fs_entry_exists(ALLEGRO_FS_ENTRY *e)
+al_open_directory: bool al_open_directory(ALLEGRO_FS_ENTRY *e)
+al_close_directory: bool al_close_directory(ALLEGRO_FS_ENTRY *e)
+al_read_directory: ALLEGRO_FS_ENTRY *al_read_directory(ALLEGRO_FS_ENTRY *e)
+al_get_current_directory: char *al_get_current_directory(void)
+al_change_directory: bool al_change_directory(const char *path)
+al_make_directory: bool al_make_directory(const char *path)
+al_filename_exists: bool al_filename_exists(const char *path)
+al_remove_filename: bool al_remove_filename(const char *path)
+al_open_fs_entry: ALLEGRO_FILE *al_open_fs_entry(ALLEGRO_FS_ENTRY *e, const char *mode)
+al_get_pixel_size: int al_get_pixel_size(int format)
+al_get_pixel_format_bits: int al_get_pixel_format_bits(int format)
+al_map_rgba: ALLEGRO_COLOR al_map_rgba(
+al_map_rgba:    unsigned char r, unsigned char g, unsigned char b, unsigned char a)
+al_map_rgb: ALLEGRO_COLOR al_map_rgb(
+al_map_rgb:    unsigned char r, unsigned char g, unsigned char b)
+al_map_rgba_f: ALLEGRO_COLOR al_map_rgba_f(float r, float g, float b, float a)
+al_map_rgb_f: ALLEGRO_COLOR al_map_rgb_f(float r, float g, float b)
+al_get_pixel: ALLEGRO_COLOR al_get_pixel(ALLEGRO_BITMAP *bitmap, int x, int y)
+al_put_pixel: void al_put_pixel(int x, int y, ALLEGRO_COLOR color)
+al_put_blended_pixel: void al_put_blended_pixel(int x, int y, ALLEGRO_COLOR color)
+al_unmap_rgba: void al_unmap_rgba(ALLEGRO_COLOR color,
+al_unmap_rgba:    unsigned char *r, unsigned char *g, unsigned char *b, unsigned char *a)
+al_unmap_rgb: void al_unmap_rgb(ALLEGRO_COLOR color,
+al_unmap_rgb:    unsigned char *r, unsigned char *g, unsigned char *b)
+al_unmap_rgba_f: void al_unmap_rgba_f(ALLEGRO_COLOR color,
+al_unmap_rgba_f:    float *r, float *g, float *b, float *a)
+al_unmap_rgb_f: void al_unmap_rgb_f(ALLEGRO_COLOR color, float *r, float *g, float *b)
+al_get_time: double al_get_time(void)
+al_rest: void al_rest(double seconds)
+al_init_timeout: void al_init_timeout(ALLEGRO_TIMEOUT *timeout, double seconds)
+al_get_win_window_handle: HWND al_get_win_window_handle(ALLEGRO_DISPLAY *display)
+al_set_new_display_option: void al_set_new_display_option(int option, int value, int importance)
+al_get_new_display_option: int al_get_new_display_option(int option, int *importance)
+al_get_display_option: int al_get_display_option(ALLEGRO_DISPLAY *display, int option)
+al_reset_new_display_options: void al_reset_new_display_options(void)
+al_create_bitmap: ALLEGRO_BITMAP *al_create_bitmap(int w, int h)
+al_destroy_bitmap: void al_destroy_bitmap(ALLEGRO_BITMAP *bitmap)
+al_draw_tinted_bitmap_region: void al_draw_tinted_bitmap_region(ALLEGRO_BITMAP *bitmap,
+al_draw_tinted_bitmap_region:    ALLEGRO_COLOR tint,
+al_draw_tinted_bitmap_region:    float sx, float sy, float sw, float sh, float dx, float dy,
+al_draw_tinted_bitmap_region:    int flags)
+al_draw_tinted_bitmap: void al_draw_tinted_bitmap(ALLEGRO_BITMAP *bitmap, ALLEGRO_COLOR tint,
+al_draw_tinted_bitmap:    float dx, float dy, int flags)
+al_draw_bitmap: void al_draw_bitmap(ALLEGRO_BITMAP *bitmap, float dx, float dy, int flags)
+al_draw_bitmap_region: void al_draw_bitmap_region(ALLEGRO_BITMAP *bitmap,
+al_draw_bitmap_region:    float sx, float sy, float sw, float sh, float dx, float dy, int flags)
+al_draw_tinted_scaled_bitmap: void al_draw_tinted_scaled_bitmap(ALLEGRO_BITMAP *bitmap,
+al_draw_tinted_scaled_bitmap:    ALLEGRO_COLOR tint,
+al_draw_tinted_scaled_bitmap:    float sx, float sy, float sw, float sh,
+al_draw_tinted_scaled_bitmap:    float dx, float dy, float dw, float dh, int flags)
+al_draw_scaled_bitmap: void al_draw_scaled_bitmap(ALLEGRO_BITMAP *bitmap,
+al_draw_scaled_bitmap:    float sx, float sy, float sw, float sh,
+al_draw_scaled_bitmap:    float dx, float dy, float dw, float dh, int flags)
+al_draw_tinted_rotated_bitmap: void al_draw_tinted_rotated_bitmap(ALLEGRO_BITMAP *bitmap,
+al_draw_tinted_rotated_bitmap:    ALLEGRO_COLOR tint,
+al_draw_tinted_rotated_bitmap:    float cx, float cy, float dx, float dy, float angle, int flags)
+al_draw_rotated_bitmap: void al_draw_rotated_bitmap(ALLEGRO_BITMAP *bitmap,
+al_draw_rotated_bitmap:    float cx, float cy, float dx, float dy, float angle, int flags)
+al_draw_tinted_scaled_rotated_bitmap: void al_draw_tinted_scaled_rotated_bitmap(ALLEGRO_BITMAP *bitmap,
+al_draw_tinted_scaled_rotated_bitmap:    ALLEGRO_COLOR tint,
+al_draw_tinted_scaled_rotated_bitmap:    float cx, float cy, float dx, float dy, float xscale, float yscale,
+al_draw_tinted_scaled_rotated_bitmap:    float angle, int flags)
+al_draw_tinted_scaled_rotated_bitmap_region: void al_draw_tinted_scaled_rotated_bitmap_region(ALLEGRO_BITMAP *bitmap,
+al_draw_tinted_scaled_rotated_bitmap_region:    float sx, float sy, float sw, float sh,
+al_draw_tinted_scaled_rotated_bitmap_region:    ALLEGRO_COLOR tint,
+al_draw_tinted_scaled_rotated_bitmap_region:    float cx, float cy, float dx, float dy, float xscale, float yscale,
+al_draw_tinted_scaled_rotated_bitmap_region:    float angle, int flags)
+al_draw_scaled_rotated_bitmap: void al_draw_scaled_rotated_bitmap(ALLEGRO_BITMAP *bitmap,
+al_draw_scaled_rotated_bitmap:    float cx, float cy, float dx, float dy, float xscale, float yscale,
+al_draw_scaled_rotated_bitmap:    float angle, int flags)
+al_lock_bitmap_region: ALLEGRO_LOCKED_REGION *al_lock_bitmap_region(ALLEGRO_BITMAP *bitmap,
+al_lock_bitmap_region:    int x, int y, int width, int height, int format, int flags)
+al_lock_bitmap: ALLEGRO_LOCKED_REGION *al_lock_bitmap(ALLEGRO_BITMAP *bitmap,
+al_lock_bitmap:    int format, int flags)
+al_unlock_bitmap: void al_unlock_bitmap(ALLEGRO_BITMAP *bitmap)
+al_convert_mask_to_alpha: void al_convert_mask_to_alpha(ALLEGRO_BITMAP *bitmap, ALLEGRO_COLOR mask_color)
+al_get_bitmap_width: int al_get_bitmap_width(ALLEGRO_BITMAP *bitmap)
+al_get_bitmap_height: int al_get_bitmap_height(ALLEGRO_BITMAP *bitmap)
+al_get_bitmap_format: int al_get_bitmap_format(ALLEGRO_BITMAP *bitmap)
+al_get_bitmap_flags: int al_get_bitmap_flags(ALLEGRO_BITMAP *bitmap)
+al_set_clipping_rectangle: void al_set_clipping_rectangle(int x, int y, int width, int height)
+al_reset_clipping_rectangle: void al_reset_clipping_rectangle(void)
+al_get_clipping_rectangle: void al_get_clipping_rectangle(int *x, int *y, int *w, int *h)
+al_create_sub_bitmap: ALLEGRO_BITMAP *al_create_sub_bitmap(ALLEGRO_BITMAP *parent,
+al_create_sub_bitmap:    int x, int y, int w, int h)
+al_is_sub_bitmap: bool al_is_sub_bitmap(ALLEGRO_BITMAP *bitmap)
+al_get_parent_bitmap: ALLEGRO_BITMAP *al_get_parent_bitmap(ALLEGRO_BITMAP *bitmap)
+al_clone_bitmap: ALLEGRO_BITMAP *al_clone_bitmap(ALLEGRO_BITMAP *bitmap)
+al_is_bitmap_locked: bool al_is_bitmap_locked(ALLEGRO_BITMAP *bitmap)
+al_is_mouse_installed: bool al_is_mouse_installed(void)
+al_install_mouse: bool al_install_mouse(void)
+al_uninstall_mouse: void al_uninstall_mouse(void)
+al_get_mouse_num_buttons: unsigned int al_get_mouse_num_buttons(void)
+al_get_mouse_num_axes: unsigned int al_get_mouse_num_axes(void)
+al_set_mouse_xy: bool al_set_mouse_xy(ALLEGRO_DISPLAY *display, int x, int y)
+al_set_mouse_z: bool al_set_mouse_z(int z)
+al_set_mouse_w: bool al_set_mouse_w(int w)
+al_set_mouse_axis: bool al_set_mouse_axis(int which, int value)
+al_get_mouse_state: void al_get_mouse_state(ALLEGRO_MOUSE_STATE *ret_state)
+al_get_mouse_state_axis: int al_get_mouse_state_axis(const ALLEGRO_MOUSE_STATE *state, int axis)
+al_mouse_button_down: bool al_mouse_button_down(const ALLEGRO_MOUSE_STATE *state, int button)
+al_create_mouse_cursor: ALLEGRO_MOUSE_CURSOR *al_create_mouse_cursor(ALLEGRO_BITMAP *bmp,
+al_create_mouse_cursor:    int x_focus, int y_focus)
+al_destroy_mouse_cursor: void al_destroy_mouse_cursor(ALLEGRO_MOUSE_CURSOR *cursor)
+al_set_mouse_cursor: bool al_set_mouse_cursor(ALLEGRO_DISPLAY *display, ALLEGRO_MOUSE_CURSOR *cursor)
+al_set_system_mouse_cursor: bool al_set_system_mouse_cursor(ALLEGRO_DISPLAY *display,
+al_set_system_mouse_cursor:    ALLEGRO_SYSTEM_MOUSE_CURSOR cursor_id)
+al_show_mouse_cursor: bool al_show_mouse_cursor(ALLEGRO_DISPLAY *display)
+al_hide_mouse_cursor: bool al_hide_mouse_cursor(ALLEGRO_DISPLAY *display)
+al_get_mouse_cursor_position: bool al_get_mouse_cursor_position(int *ret_x, int *ret_y)
+al_grab_mouse: bool al_grab_mouse(ALLEGRO_DISPLAY *display)
+al_ungrab_mouse: bool al_ungrab_mouse(void)
+al_get_mouse_event_source: ALLEGRO_EVENT_SOURCE *al_get_mouse_event_source(void)
+al_create_event_queue: ALLEGRO_EVENT_QUEUE *al_create_event_queue(void)
+al_destroy_event_queue: void al_destroy_event_queue(ALLEGRO_EVENT_QUEUE *queue)
+al_register_event_source: void al_register_event_source(ALLEGRO_EVENT_QUEUE *queue,
+al_register_event_source:    ALLEGRO_EVENT_SOURCE *source)
+al_unregister_event_source: void al_unregister_event_source(ALLEGRO_EVENT_QUEUE *queue,
+al_unregister_event_source:    ALLEGRO_EVENT_SOURCE *source)
+al_is_event_queue_empty: bool al_is_event_queue_empty(ALLEGRO_EVENT_QUEUE *queue)
+al_get_next_event: bool al_get_next_event(ALLEGRO_EVENT_QUEUE *queue, ALLEGRO_EVENT *ret_event)
+al_peek_next_event: bool al_peek_next_event(ALLEGRO_EVENT_QUEUE *queue, ALLEGRO_EVENT *ret_event)
+al_drop_next_event: bool al_drop_next_event(ALLEGRO_EVENT_QUEUE *queue)
+al_flush_event_queue: void al_flush_event_queue(ALLEGRO_EVENT_QUEUE *queue)
+al_wait_for_event: void al_wait_for_event(ALLEGRO_EVENT_QUEUE *queue, ALLEGRO_EVENT *ret_event)
+al_wait_for_event_timed: bool al_wait_for_event_timed(ALLEGRO_EVENT_QUEUE *queue,
+al_wait_for_event_timed:    ALLEGRO_EVENT *ret_event, float secs)
+al_wait_for_event_until: bool al_wait_for_event_until(ALLEGRO_EVENT_QUEUE *queue,
+al_wait_for_event_until:    ALLEGRO_EVENT *ret_event, ALLEGRO_TIMEOUT *timeout)
+al_unref_user_event: void al_unref_user_event(ALLEGRO_USER_EVENT *event)
+al_fixatan: al_fixed al_fixatan(al_fixed x)
+al_fixatan2: al_fixed al_fixatan2(al_fixed y, al_fixed x)
+al_fixtorad_r: const al_fixed al_fixtorad_r = (al_fixed)1608;
+al_radtofix_r: const al_fixed al_radtofix_r = (al_fixed)2670177;
+al_fixsqrt: al_fixed al_fixsqrt(al_fixed x)
+al_fixhypot: al_fixed al_fixhypot(al_fixed x, al_fixed y)
+al_itofix: al_fixed al_itofix(int x);
+al_fixtoi: int al_fixtoi(al_fixed x);
+al_fixfloor: int al_fixfloor(al_fixed x);
+al_fixceil: int al_fixceil(al_fixed x);
+al_ftofix: al_fixed al_ftofix(double x);
+al_fixtof: double al_fixtof(al_fixed x);
+al_fixadd: al_fixed al_fixadd(al_fixed x, al_fixed y);
+al_fixsub: al_fixed al_fixsub(al_fixed x, al_fixed y);
+al_fixmul: al_fixed al_fixmul(al_fixed x, al_fixed y);
+al_fixdiv: al_fixed al_fixdiv(al_fixed x, al_fixed y);
+al_fixcos: al_fixed al_fixcos(al_fixed x);
+al_fixsin: al_fixed al_fixsin(al_fixed x);
+al_fixtan: al_fixed al_fixtan(al_fixed x);
+al_fixacos: al_fixed al_fixacos(al_fixed x);
+al_fixasin: al_fixed al_fixasin(al_fixed x);
+al_set_memory_interface: void al_set_memory_interface(ALLEGRO_MEMORY_INTERFACE *memory_interface)
+al_malloc_with_context: void *al_malloc_with_context(size_t n,
+al_malloc_with_context:    int line, const char *file, const char *func)
+al_free_with_context: void al_free_with_context(void *ptr,
+al_free_with_context:    int line, const char *file, const char *func)
+al_realloc_with_context: void *al_realloc_with_context(void *ptr, size_t n,
+al_realloc_with_context:    int line, const char *file, const char *func)
+al_calloc_with_context: void *al_calloc_with_context(size_t count, size_t n,
+al_calloc_with_context:    int line, const char *file, const char *func)
+al_have_d3d_non_pow2_texture_support: bool al_have_d3d_non_pow2_texture_support(void)
+al_have_d3d_non_square_texture_support: bool al_have_d3d_non_square_texture_support(void)
+al_get_d3d_device: LPDIRECT3DDEVICE9 al_get_d3d_device(ALLEGRO_DISPLAY *display)
+al_get_d3d_system_texture: LPDIRECT3DTEXTURE9 al_get_d3d_system_texture(ALLEGRO_BITMAP *bitmap)
+al_get_d3d_video_texture: LPDIRECT3DTEXTURE9 al_get_d3d_video_texture(ALLEGRO_BITMAP *bitmap)
+al_get_d3d_texture_position: void al_get_d3d_texture_position(ALLEGRO_BITMAP *bitmap, int *u, int *v)
+al_is_d3d_device_lost: bool al_is_d3d_device_lost(ALLEGRO_DISPLAY *display)
+ALLEGRO_FILE: typedef struct ALLEGRO_FILE ALLEGRO_FILE;
+ALLEGRO_FILE_INTERFACE: typedef struct ALLEGRO_FILE_INTERFACE
+ALLEGRO_SEEK: typedef enum ALLEGRO_SEEK
+ALLEGRO_BITMAP: typedef struct ALLEGRO_BITMAP ALLEGRO_BITMAP;
+ALLEGRO_PIXEL_FORMAT: typedef enum ALLEGRO_PIXEL_FORMAT
+ALLEGRO_LOCKED_REGION: typedef struct ALLEGRO_LOCKED_REGION ALLEGRO_LOCKED_REGION;
+al_init: #define al_init()    (al_install_system(ALLEGRO_VERSION_INT, atexit))
+ALLEGRO_OPENGL_VARIANT: typedef enum ALLEGRO_OPENGL_VARIANT {
+ALLEGRO_THREAD: typedef struct ALLEGRO_THREAD ALLEGRO_THREAD;
+ALLEGRO_MUTEX: typedef struct ALLEGRO_MUTEX ALLEGRO_MUTEX;
+ALLEGRO_COND: typedef struct ALLEGRO_COND ALLEGRO_COND;
+ALLEGRO_PI: #define ALLEGRO_PI        3.14159265358979323846
+ALLEGRO_USTR: typedef struct _al_tagbstring ALLEGRO_USTR;
+ALLEGRO_USTR_INFO: typedef struct _al_tagbstring ALLEGRO_USTR_INFO;
+al_fixed: typedef int32_t al_fixed;
+ALLEGRO_JOYSTICK: typedef struct ALLEGRO_JOYSTICK ALLEGRO_JOYSTICK;
+ALLEGRO_JOYSTICK_STATE: typedef struct ALLEGRO_JOYSTICK_STATE ALLEGRO_JOYSTICK_STATE;
+ALLEGRO_JOYFLAGS: enum ALLEGRO_JOYFLAGS
+ALLEGRO_USECS_TO_SECS: #define ALLEGRO_USECS_TO_SECS(x)      ((x) / 1000000.0)
+ALLEGRO_MSECS_TO_SECS: #define ALLEGRO_MSECS_TO_SECS(x)      ((x) / 1000.0)
+ALLEGRO_BPS_TO_SECS: #define ALLEGRO_BPS_TO_SECS(x)        (1.0 / (x))
+ALLEGRO_BPM_TO_SECS: #define ALLEGRO_BPM_TO_SECS(x)        (60.0 / (x))
+ALLEGRO_TIMER: typedef struct ALLEGRO_TIMER ALLEGRO_TIMER;
+ALLEGRO_COLOR: typedef struct ALLEGRO_COLOR ALLEGRO_COLOR;
+ALLEGRO_MOUSE_STATE: typedef struct ALLEGRO_MOUSE_STATE ALLEGRO_MOUSE_STATE;
+ALLEGRO_EVENT_TYPE: typedef unsigned int ALLEGRO_EVENT_TYPE;
+ALLEGRO_EVENT_TYPE_IS_USER: #define ALLEGRO_EVENT_TYPE_IS_USER(t)        ((t) >= 512)
+ALLEGRO_GET_EVENT_TYPE: #define ALLEGRO_GET_EVENT_TYPE(a, b, c, d)   AL_ID(a, b, c, d)
+ALLEGRO_EVENT_SOURCE: typedef struct ALLEGRO_EVENT_SOURCE ALLEGRO_EVENT_SOURCE;
+ALLEGRO_USER_EVENT: typedef struct ALLEGRO_USER_EVENT ALLEGRO_USER_EVENT;
+ALLEGRO_EVENT: typedef union ALLEGRO_EVENT ALLEGRO_EVENT;
+ALLEGRO_EVENT_QUEUE: typedef struct ALLEGRO_EVENT_QUEUE ALLEGRO_EVENT_QUEUE;
+ALLEGRO_TRANSFORM: typedef struct ALLEGRO_TRANSFORM ALLEGRO_TRANSFORM;
+ALLEGRO_STATE_FLAGS: typedef enum ALLEGRO_STATE_FLAGS
+ALLEGRO_STATE: typedef struct ALLEGRO_STATE ALLEGRO_STATE;
+ALLEGRO_DISPLAY: typedef struct ALLEGRO_DISPLAY ALLEGRO_DISPLAY;
+ALLEGRO_DISPLAY_MODE: typedef struct ALLEGRO_DISPLAY_MODE
+ALLEGRO_MONITOR_INFO: typedef struct ALLEGRO_MONITOR_INFO
+ALLEGRO_FS_ENTRY: typedef struct ALLEGRO_FS_ENTRY ALLEGRO_FS_ENTRY;
+ALLEGRO_FILE_MODE: typedef enum ALLEGRO_FILE_MODE
+ALLEGRO_FS_INTERFACE: typedef struct ALLEGRO_FS_INTERFACE ALLEGRO_FS_INTERFACE;
+ALLEGRO_CONFIG: typedef struct ALLEGRO_CONFIG ALLEGRO_CONFIG;
+ALLEGRO_CONFIG_SECTION: typedef struct ALLEGRO_CONFIG_SECTION ALLEGRO_CONFIG_SECTION;
+ALLEGRO_CONFIG_ENTRY: typedef struct ALLEGRO_CONFIG_ENTRY ALLEGRO_CONFIG_ENTRY;
+ALLEGRO_MEMORY_INTERFACE: typedef struct ALLEGRO_MEMORY_INTERFACE ALLEGRO_MEMORY_INTERFACE;
+al_malloc: #define al_malloc(n) \
+al_malloc:    (al_malloc_with_context((n), __LINE__, __FILE__, __func__))
+al_free: #define al_free(p) \
+al_free:    (al_free_with_context((p), __LINE__, __FILE__, __func__))
+al_realloc: #define al_realloc(p, n) \
+al_realloc:    (al_realloc_with_context((p), (n), __LINE__, __FILE__, __func__))
+al_calloc: #define al_calloc(c, n) \
+al_calloc:    (al_calloc_with_context((c), (n), __LINE__, __FILE__, __func__))
+ALLEGRO_TIMEOUT: typedef struct ALLEGRO_TIMEOUT ALLEGRO_TIMEOUT;
+ALLEGRO_KEYBOARD_STATE: typedef struct ALLEGRO_KEYBOARD_STATE ALLEGRO_KEYBOARD_STATE;
+al_get_allegro_acodec_version: uint32_t al_get_allegro_acodec_version(void)
+al_init_acodec_addon: bool al_init_acodec_addon(void)
+al_set_physfs_file_interface: void al_set_physfs_file_interface(void)
+al_get_allegro_physfs_version: uint32_t al_get_allegro_physfs_version(void)
+al_color_name_to_rgb: bool al_color_name_to_rgb(char const *name, float *r, float *g, float *b)
+al_color_rgb_to_name: char const *al_color_rgb_to_name(float r, float g, float b)
+al_color_name: ALLEGRO_COLOR al_color_name(char const *name)
+al_color_hsv_to_rgb: void al_color_hsv_to_rgb(float hue, float saturation, float value,
+al_color_hsv_to_rgb:    float *red, float *green, float *blue)
+al_color_rgb_to_hsv: void al_color_rgb_to_hsv(float red, float green, float blue,
+al_color_rgb_to_hsv:    float *hue, float *saturation, float *value)
+al_color_hsv: ALLEGRO_COLOR al_color_hsv(float h, float s, float v)
+al_color_hsl_to_rgb: void al_color_hsl_to_rgb(float hue, float saturation, float lightness,
+al_color_hsl_to_rgb:    float *red, float *green, float *blue)
+al_color_rgb_to_hsl: void al_color_rgb_to_hsl(float red, float green, float blue,
+al_color_rgb_to_hsl:    float *hue, float *saturation, float *lightness)
+al_color_hsl: ALLEGRO_COLOR al_color_hsl(float h, float s, float l)
+al_color_cmyk_to_rgb: void al_color_cmyk_to_rgb(float cyan, float magenta, float yellow,
+al_color_cmyk_to_rgb:     float key, float *red, float *green, float *blue)
+al_color_rgb_to_cmyk: void al_color_rgb_to_cmyk(float red, float green, float blue,
+al_color_rgb_to_cmyk:    float *cyan, float *magenta, float *yellow, float *key)
+al_color_cmyk: ALLEGRO_COLOR al_color_cmyk(float c, float m, float y, float k)
+al_color_yuv_to_rgb: void al_color_yuv_to_rgb(float y, float u, float v,
+al_color_yuv_to_rgb:     float *red, float *green, float *blue)
+al_color_rgb_to_yuv: void al_color_rgb_to_yuv(float red, float green, float blue,
+al_color_rgb_to_yuv:    float *y, float *u, float *v)
+al_color_yuv: ALLEGRO_COLOR al_color_yuv(float y, float u, float v)
+al_color_rgb_to_html: void al_color_rgb_to_html(float red, float green, float blue,
+al_color_rgb_to_html:     char *string)
+al_color_html_to_rgb: void al_color_html_to_rgb(char const *string,
+al_color_html_to_rgb:    float *red, float *green, float *blue)
+al_color_html: ALLEGRO_COLOR al_color_html(char const *string)
+al_get_allegro_color_version: uint32_t al_get_allegro_color_version(void)
+al_open_memfile: ALLEGRO_FILE *al_open_memfile(void *mem, int64_t size, const char *mode)
+al_get_allegro_memfile_version: uint32_t al_get_allegro_memfile_version(void)
+al_draw_soft_triangle: void al_draw_soft_triangle(
+al_draw_soft_triangle:    ALLEGRO_VERTEX* v1, ALLEGRO_VERTEX* v2, ALLEGRO_VERTEX* v3, uintptr_t state,
+al_draw_soft_triangle:    void (*init)(uintptr_t, ALLEGRO_VERTEX*, ALLEGRO_VERTEX*, ALLEGRO_VERTEX*),
+al_draw_soft_triangle:    void (*first)(uintptr_t, int, int, int, int),
+al_draw_soft_triangle:    void (*step)(uintptr_t, int),
+al_draw_soft_triangle:    void (*draw)(uintptr_t, int, int, int))
+al_draw_soft_line: void al_draw_soft_line(ALLEGRO_VERTEX* v1, ALLEGRO_VERTEX* v2, uintptr_t state,
+al_draw_soft_line:    void (*first)(uintptr_t, int, int, ALLEGRO_VERTEX*, ALLEGRO_VERTEX*),
+al_draw_soft_line:    void (*step)(uintptr_t, int),
+al_draw_soft_line:    void (*draw)(uintptr_t, int, int))
+al_draw_line: void al_draw_line(float x1, float y1, float x2, float y2,
+al_draw_line:    ALLEGRO_COLOR color, float thickness)
+al_draw_triangle: void al_draw_triangle(float x1, float y1, float x2, float y2,
+al_draw_triangle:    float x3, float y3, ALLEGRO_COLOR color, float thickness)
+al_draw_filled_triangle: void al_draw_filled_triangle(float x1, float y1, float x2, float y2,
+al_draw_filled_triangle:    float x3, float y3, ALLEGRO_COLOR color)
+al_draw_rectangle: void al_draw_rectangle(float x1, float y1, float x2, float y2,
+al_draw_rectangle:    ALLEGRO_COLOR color, float thickness)
+al_draw_filled_rectangle: void al_draw_filled_rectangle(float x1, float y1, float x2, float y2,
+al_draw_filled_rectangle:    ALLEGRO_COLOR color)
+al_calculate_arc: void al_calculate_arc(float* dest, int stride, float cx, float cy,
+al_calculate_arc:    float rx, float ry, float start_theta, float delta_theta, float thickness,
+al_calculate_arc:    int num_segments)
+al_draw_pieslice: void al_draw_pieslice(float cx, float cy, float r, float start_theta,
+al_draw_pieslice:    float delta_theta, ALLEGRO_COLOR color, float thickness)
+al_draw_filled_pieslice: void al_draw_filled_pieslice(float cx, float cy, float r, float start_theta,
+al_draw_filled_pieslice:    float delta_theta, ALLEGRO_COLOR color)
+al_draw_ellipse: void al_draw_ellipse(float cx, float cy, float rx, float ry,
+al_draw_ellipse:    ALLEGRO_COLOR color, float thickness)
+al_draw_filled_ellipse: void al_draw_filled_ellipse(float cx, float cy, float rx, float ry,
+al_draw_filled_ellipse:    ALLEGRO_COLOR color)
+al_draw_circle: void al_draw_circle(float cx, float cy, float r, ALLEGRO_COLOR color,
+al_draw_circle:    float thickness)
+al_draw_filled_circle: void al_draw_filled_circle(float cx, float cy, float r, ALLEGRO_COLOR color)
+al_draw_elliptical_arc: void al_draw_elliptical_arc(float cx, float cy, float rx, float ry, float start_theta,
+al_draw_elliptical_arc:    float delta_theta, ALLEGRO_COLOR color, float thickness)
+al_draw_arc: void al_draw_arc(float cx, float cy, float r, float start_theta,
+al_draw_arc:    float delta_theta, ALLEGRO_COLOR color, float thickness)
+al_draw_rounded_rectangle: void al_draw_rounded_rectangle(float x1, float y1, float x2, float y2,
+al_draw_rounded_rectangle:    float rx, float ry, ALLEGRO_COLOR color, float thickness)
+al_draw_filled_rounded_rectangle: void al_draw_filled_rounded_rectangle(float x1, float y1, float x2, float y2,
+al_draw_filled_rounded_rectangle:    float rx, float ry, ALLEGRO_COLOR color)
+al_calculate_spline: void al_calculate_spline(float* dest, int stride, float points[8],
+al_calculate_spline:    float thickness, int num_segments)
+al_draw_spline: void al_draw_spline(float points[8], ALLEGRO_COLOR color, float thickness)
+al_calculate_ribbon: void al_calculate_ribbon(float* dest, int dest_stride, const float *points,
+al_calculate_ribbon:    int points_stride, float thickness, int num_segments)
+al_draw_ribbon: void al_draw_ribbon(const float *points, int points_stride, ALLEGRO_COLOR color,
+al_draw_ribbon:    float thickness, int num_segments)
+al_init_primitives_addon: bool al_init_primitives_addon(void)
+al_shutdown_primitives_addon: void al_shutdown_primitives_addon(void)
+al_draw_prim: int al_draw_prim(const void* vtxs, const ALLEGRO_VERTEX_DECL* decl,
+al_draw_prim:    ALLEGRO_BITMAP* texture, int start, int end, int type)
+al_draw_indexed_prim: int al_draw_indexed_prim(const void* vtxs, const ALLEGRO_VERTEX_DECL* decl,
+al_draw_indexed_prim:    ALLEGRO_BITMAP* texture, const int* indices, int num_vtx, int type)
+al_get_allegro_primitives_version: uint32_t al_get_allegro_primitives_version(void)
+al_create_vertex_decl: ALLEGRO_VERTEX_DECL* al_create_vertex_decl(const ALLEGRO_VERTEX_ELEMENT* elements, int stride)
+al_destroy_vertex_decl: void al_destroy_vertex_decl(ALLEGRO_VERTEX_DECL* decl)
+ALLEGRO_PRIM_TYPE: typedef enum ALLEGRO_PRIM_TYPE
+ALLEGRO_PRIM_ATTR: typedef enum ALLEGRO_PRIM_ATTR
+ALLEGRO_PRIM_STORAGE: typedef enum ALLEGRO_PRIM_STORAGE
+ALLEGRO_VERTEX_CACHE_SIZE: #define ALLEGRO_VERTEX_CACHE_SIZE 256
+ALLEGRO_PRIM_QUALITY: #define ALLEGRO_PRIM_QUALITY 10
+ALLEGRO_VERTEX_ELEMENT: typedef struct ALLEGRO_VERTEX_ELEMENT ALLEGRO_VERTEX_ELEMENT;
+ALLEGRO_VERTEX_DECL: typedef struct ALLEGRO_VERTEX_DECL ALLEGRO_VERTEX_DECL;
+ALLEGRO_VERTEX: typedef struct ALLEGRO_VERTEX ALLEGRO_VERTEX;
+al_init_image_addon: bool al_init_image_addon(void)
+al_shutdown_image_addon: void al_shutdown_image_addon(void)
+al_get_allegro_image_version: uint32_t al_get_allegro_image_version(void)
+al_save_pcx_f: bool _al_save_pcx_f(ALLEGRO_FILE *f, ALLEGRO_BITMAP *bmp)
+al_load_ttf_font_f: ALLEGRO_FONT *al_load_ttf_font_f(ALLEGRO_FILE *file,
+al_load_ttf_font_f:     char const *filename, int size, int flags)
+al_load_ttf_font_stretch_f: ALLEGRO_FONT *al_load_ttf_font_stretch_f(ALLEGRO_FILE *file,
+al_load_ttf_font_stretch_f:     char const *filename, int w, int h, int flags)
+al_load_ttf_font: ALLEGRO_FONT *al_load_ttf_font(char const *filename, int size, int flags)
+al_load_ttf_font_stretch: ALLEGRO_FONT *al_load_ttf_font_stretch(char const *filename, int w, int h,
+al_load_ttf_font_stretch:     int flags)
+al_init_ttf_addon: bool al_init_ttf_addon(void)
+al_shutdown_ttf_addon: void al_shutdown_ttf_addon(void)
+al_get_allegro_ttf_version: uint32_t al_get_allegro_ttf_version(void)
+al_draw_ustr: void al_draw_ustr(const ALLEGRO_FONT *font,
+al_draw_ustr:    ALLEGRO_COLOR color, float x, float y, int flags,
+al_draw_ustr:    const ALLEGRO_USTR *ustr) 
+al_draw_text: void al_draw_text(const ALLEGRO_FONT *font,
+al_draw_text:    ALLEGRO_COLOR color, float x, float y, int flags,
+al_draw_text:    char const *text) 
+al_draw_justified_ustr: void al_draw_justified_ustr(const ALLEGRO_FONT *font,
+al_draw_justified_ustr:    ALLEGRO_COLOR color, float x1, float x2,
+al_draw_justified_ustr:    float y, float diff, int flags, const ALLEGRO_USTR *ustr)
+al_draw_justified_text: void al_draw_justified_text(const ALLEGRO_FONT *font,
+al_draw_justified_text:    ALLEGRO_COLOR color, float x1, float x2,
+al_draw_justified_text:    float y, float diff, int flags, const char *text)
+al_draw_textf: void al_draw_textf(const ALLEGRO_FONT *font, ALLEGRO_COLOR color,
+al_draw_textf:    float x, float y, int flags,
+al_draw_textf:    const char *format, ...)
+al_draw_justified_textf: void al_draw_justified_textf(const ALLEGRO_FONT *f,
+al_draw_justified_textf:    ALLEGRO_COLOR color, float x1, float x2, float y,
+al_draw_justified_textf:    float diff, int flags, const char *format, ...)
+al_get_ustr_width: int al_get_ustr_width(const ALLEGRO_FONT *f, ALLEGRO_USTR const *ustr)
+al_get_text_width: int al_get_text_width(const ALLEGRO_FONT *f, const char *str)
+al_get_font_line_height: int al_get_font_line_height(const ALLEGRO_FONT *f)
+al_get_font_ascent: int al_get_font_ascent(const ALLEGRO_FONT *f)
+al_get_font_descent: int al_get_font_descent(const ALLEGRO_FONT *f)
+al_get_ustr_dimensions: void al_get_ustr_dimensions(const ALLEGRO_FONT *f,
+al_get_ustr_dimensions:    ALLEGRO_USTR const *ustr,
+al_get_ustr_dimensions:    int *bbx, int *bby, int *bbw, int *bbh)
+al_get_text_dimensions: void al_get_text_dimensions(const ALLEGRO_FONT *f,
+al_get_text_dimensions:    char const *text,
+al_get_text_dimensions:    int *bbx, int *bby, int *bbw, int *bbh)
+al_destroy_font: void al_destroy_font(ALLEGRO_FONT *f)
+al_init_font_addon: void al_init_font_addon(void)
+al_shutdown_font_addon: void al_shutdown_font_addon(void)
+al_register_font_loader: bool al_register_font_loader(char const *extension,
+al_register_font_loader:    ALLEGRO_FONT *(*load_font)(char const *filename, int size, int flags))
+al_load_font: ALLEGRO_FONT *al_load_font(char const *filename, int size, int flags)
+al_get_allegro_font_version: uint32_t al_get_allegro_font_version(void)
+al_load_bitmap_font: ALLEGRO_FONT *al_load_bitmap_font(const char *fname)
+al_grab_font_from_bitmap: ALLEGRO_FONT *al_grab_font_from_bitmap(ALLEGRO_BITMAP *bmp,
+al_grab_font_from_bitmap:    int ranges_n, int ranges[])
+ALLEGRO_FONT: typedef struct ALLEGRO_FONT ALLEGRO_FONT;
+al_create_native_file_dialog: ALLEGRO_FILECHOOSER *al_create_native_file_dialog(
+al_create_native_file_dialog:    char const *initial_path,
+al_create_native_file_dialog:    char const *title,
+al_create_native_file_dialog:    char const *patterns,
+al_create_native_file_dialog:    int mode)
+al_show_native_file_dialog: bool al_show_native_file_dialog(ALLEGRO_DISPLAY *display,
+al_show_native_file_dialog:    ALLEGRO_FILECHOOSER *dialog)
+al_get_native_file_dialog_count: int al_get_native_file_dialog_count(const ALLEGRO_FILECHOOSER *dialog)
+al_get_native_file_dialog_path: const char *al_get_native_file_dialog_path(
+al_get_native_file_dialog_path:    const ALLEGRO_FILECHOOSER *dialog, size_t i)
+al_destroy_native_file_dialog: void al_destroy_native_file_dialog(ALLEGRO_FILECHOOSER *dialog)
+al_show_native_message_box: int al_show_native_message_box(ALLEGRO_DISPLAY *display,
+al_show_native_message_box:    char const *title, char const *heading, char const *text,
+al_show_native_message_box:    char const *buttons, int flags)
+al_get_allegro_native_dialog_version: uint32_t al_get_allegro_native_dialog_version(void)
+al_open_native_text_log: ALLEGRO_TEXTLOG *al_open_native_text_log(char const *title, int flags)
+al_close_native_text_log: void al_close_native_text_log(ALLEGRO_TEXTLOG *textlog)
+al_append_native_text_log: void al_append_native_text_log(ALLEGRO_TEXTLOG *textlog,
+al_append_native_text_log:    char const *format, ...)
+al_get_native_text_log_event_source: ALLEGRO_EVENT_SOURCE *al_get_native_text_log_event_source(
+al_get_native_text_log_event_source:    ALLEGRO_TEXTLOG *textlog)
+ALLEGRO_FILECHOOSER: typedef struct ALLEGRO_FILECHOOSER ALLEGRO_FILECHOOSER;
+ALLEGRO_TEXTLOG: typedef struct ALLEGRO_TEXTLOG ALLEGRO_TEXTLOG;
+al_create_voice: ALLEGRO_VOICE *al_create_voice(unsigned int freq,
+al_create_voice:    ALLEGRO_AUDIO_DEPTH depth, ALLEGRO_CHANNEL_CONF chan_conf)
+al_destroy_voice: void al_destroy_voice(ALLEGRO_VOICE *voice)
+al_attach_sample_instance_to_voice: bool al_attach_sample_instance_to_voice(ALLEGRO_SAMPLE_INSTANCE *spl,
+al_attach_sample_instance_to_voice:    ALLEGRO_VOICE *voice)
+al_attach_audio_stream_to_voice: bool al_attach_audio_stream_to_voice(ALLEGRO_AUDIO_STREAM *stream,
+al_attach_audio_stream_to_voice:    ALLEGRO_VOICE *voice)
+al_attach_mixer_to_voice: bool al_attach_mixer_to_voice(ALLEGRO_MIXER *mixer, ALLEGRO_VOICE *voice)
+al_detach_voice: void al_detach_voice(ALLEGRO_VOICE *voice)
+al_get_voice_frequency: unsigned int al_get_voice_frequency(const ALLEGRO_VOICE *voice)
+al_get_voice_position: unsigned int al_get_voice_position(const ALLEGRO_VOICE *voice)
+al_get_voice_channels: ALLEGRO_CHANNEL_CONF al_get_voice_channels(const ALLEGRO_VOICE *voice)
+al_get_voice_depth: ALLEGRO_AUDIO_DEPTH al_get_voice_depth(const ALLEGRO_VOICE *voice)
+al_get_voice_playing: bool al_get_voice_playing(const ALLEGRO_VOICE *voice)
+al_set_voice_position: bool al_set_voice_position(ALLEGRO_VOICE *voice, unsigned int val)
+al_set_voice_playing: bool al_set_voice_playing(ALLEGRO_VOICE *voice, bool val)
+al_create_sample_instance: ALLEGRO_SAMPLE_INSTANCE *al_create_sample_instance(ALLEGRO_SAMPLE *sample_data)
+al_destroy_sample_instance: void al_destroy_sample_instance(ALLEGRO_SAMPLE_INSTANCE *spl)
+al_play_sample_instance: bool al_play_sample_instance(ALLEGRO_SAMPLE_INSTANCE *spl)
+al_stop_sample_instance: bool al_stop_sample_instance(ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_frequency: unsigned int al_get_sample_instance_frequency(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_length: unsigned int al_get_sample_instance_length(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_position: unsigned int al_get_sample_instance_position(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_speed: float al_get_sample_instance_speed(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_gain: float al_get_sample_instance_gain(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_pan: float al_get_sample_instance_pan(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_time: float al_get_sample_instance_time(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_depth: ALLEGRO_AUDIO_DEPTH al_get_sample_instance_depth(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_channels: ALLEGRO_CHANNEL_CONF al_get_sample_instance_channels(
+al_get_sample_instance_channels:    const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_playmode: ALLEGRO_PLAYMODE al_get_sample_instance_playmode(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_playing: bool al_get_sample_instance_playing(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_get_sample_instance_attached: bool al_get_sample_instance_attached(const ALLEGRO_SAMPLE_INSTANCE *spl)
+al_set_sample_instance_position: bool al_set_sample_instance_position(ALLEGRO_SAMPLE_INSTANCE *spl,
+al_set_sample_instance_position:    unsigned int val)
+al_set_sample_instance_length: bool al_set_sample_instance_length(ALLEGRO_SAMPLE_INSTANCE *spl,
+al_set_sample_instance_length:    unsigned int val)
+al_set_sample_instance_speed: bool al_set_sample_instance_speed(ALLEGRO_SAMPLE_INSTANCE *spl, float val)
+al_set_sample_instance_gain: bool al_set_sample_instance_gain(ALLEGRO_SAMPLE_INSTANCE *spl, float val)
+al_set_sample_instance_pan: bool al_set_sample_instance_pan(ALLEGRO_SAMPLE_INSTANCE *spl, float val)
+al_set_sample_instance_playmode: bool al_set_sample_instance_playmode(ALLEGRO_SAMPLE_INSTANCE *spl,
+al_set_sample_instance_playmode:    ALLEGRO_PLAYMODE val)
+al_set_sample_instance_playing: bool al_set_sample_instance_playing(ALLEGRO_SAMPLE_INSTANCE *spl, bool val)
+al_detach_sample_instance: bool al_detach_sample_instance(ALLEGRO_SAMPLE_INSTANCE *spl)
+al_set_sample: bool al_set_sample(ALLEGRO_SAMPLE_INSTANCE *spl, ALLEGRO_SAMPLE *data)
+al_get_sample: ALLEGRO_SAMPLE *al_get_sample(ALLEGRO_SAMPLE_INSTANCE *spl)
+al_create_sample: ALLEGRO_SAMPLE *al_create_sample(void *buf, unsigned int samples,
+al_create_sample:    unsigned int freq, ALLEGRO_AUDIO_DEPTH depth,
+al_create_sample:    ALLEGRO_CHANNEL_CONF chan_conf, bool free_buf)
+al_destroy_sample: void al_destroy_sample(ALLEGRO_SAMPLE *spl)
+al_reserve_samples: bool al_reserve_samples(int reserve_samples)
+al_get_default_mixer: ALLEGRO_MIXER *al_get_default_mixer(void)
+al_set_default_mixer: bool al_set_default_mixer(ALLEGRO_MIXER *mixer)
+al_restore_default_mixer: bool al_restore_default_mixer(void)
+al_play_sample: bool al_play_sample(ALLEGRO_SAMPLE *spl, float gain, float pan, float speed,
+al_play_sample:    ALLEGRO_PLAYMODE loop, ALLEGRO_SAMPLE_ID *ret_id)
+al_stop_sample: void al_stop_sample(ALLEGRO_SAMPLE_ID *spl_id)
+al_stop_samples: void al_stop_samples(void)
+al_get_sample_frequency: unsigned int al_get_sample_frequency(const ALLEGRO_SAMPLE *spl)
+al_get_sample_length: unsigned int al_get_sample_length(const ALLEGRO_SAMPLE *spl)
+al_get_sample_depth: ALLEGRO_AUDIO_DEPTH al_get_sample_depth(const ALLEGRO_SAMPLE *spl)
+al_get_sample_channels: ALLEGRO_CHANNEL_CONF al_get_sample_channels(const ALLEGRO_SAMPLE *spl)
+al_get_sample_data: void *al_get_sample_data(const ALLEGRO_SAMPLE *spl)
+al_create_mixer: ALLEGRO_MIXER *al_create_mixer(unsigned int freq,
+al_create_mixer:    ALLEGRO_AUDIO_DEPTH depth, ALLEGRO_CHANNEL_CONF chan_conf)
+al_destroy_mixer: void al_destroy_mixer(ALLEGRO_MIXER *mixer)
+al_attach_sample_instance_to_mixer: bool al_attach_sample_instance_to_mixer(ALLEGRO_SAMPLE_INSTANCE *spl,
+al_attach_sample_instance_to_mixer:    ALLEGRO_MIXER *mixer)
+al_attach_audio_stream_to_mixer: bool al_attach_audio_stream_to_mixer(ALLEGRO_AUDIO_STREAM *stream, ALLEGRO_MIXER *mixer)
+al_attach_mixer_to_mixer: bool al_attach_mixer_to_mixer(ALLEGRO_MIXER *stream, ALLEGRO_MIXER *mixer)
+al_set_mixer_postprocess_callback: bool al_set_mixer_postprocess_callback(ALLEGRO_MIXER *mixer,
+al_set_mixer_postprocess_callback:    void (*pp_callback)(void *buf, unsigned int samples, void *data),
+al_set_mixer_postprocess_callback:    void *pp_callback_userdata)
+al_get_mixer_frequency: unsigned int al_get_mixer_frequency(const ALLEGRO_MIXER *mixer)
+al_get_mixer_channels: ALLEGRO_CHANNEL_CONF al_get_mixer_channels(const ALLEGRO_MIXER *mixer)
+al_get_mixer_depth: ALLEGRO_AUDIO_DEPTH al_get_mixer_depth(const ALLEGRO_MIXER *mixer)
+al_get_mixer_quality: ALLEGRO_MIXER_QUALITY al_get_mixer_quality(const ALLEGRO_MIXER *mixer)
+al_get_mixer_gain: float al_get_mixer_gain(const ALLEGRO_MIXER *mixer)
+al_get_mixer_playing: bool al_get_mixer_playing(const ALLEGRO_MIXER *mixer)
+al_get_mixer_attached: bool al_get_mixer_attached(const ALLEGRO_MIXER *mixer)
+al_set_mixer_frequency: bool al_set_mixer_frequency(ALLEGRO_MIXER *mixer, unsigned int val)
+al_set_mixer_quality: bool al_set_mixer_quality(ALLEGRO_MIXER *mixer, ALLEGRO_MIXER_QUALITY new_quality)
+al_set_mixer_gain: bool al_set_mixer_gain(ALLEGRO_MIXER *mixer, float new_gain)
+al_set_mixer_playing: bool al_set_mixer_playing(ALLEGRO_MIXER *mixer, bool val)
+al_detach_mixer: bool al_detach_mixer(ALLEGRO_MIXER *mixer)
+al_get_channel_count: size_t al_get_channel_count(ALLEGRO_CHANNEL_CONF conf)
+al_get_audio_depth_size: size_t al_get_audio_depth_size(ALLEGRO_AUDIO_DEPTH depth)
+al_install_audio: bool al_install_audio(void)
+al_uninstall_audio: void al_uninstall_audio(void)
+al_is_audio_installed: bool al_is_audio_installed(void)
+al_get_allegro_audio_version: uint32_t al_get_allegro_audio_version(void)
+ALLEGRO_AUDIO_DEPTH: enum ALLEGRO_AUDIO_DEPTH
+ALLEGRO_CHANNEL_CONF: enum ALLEGRO_CHANNEL_CONF
+ALLEGRO_PLAYMODE: enum ALLEGRO_PLAYMODE
+ALLEGRO_MIXER_QUALITY: enum ALLEGRO_MIXER_QUALITY
+ALLEGRO_AUDIO_PAN_NONE: #define ALLEGRO_AUDIO_PAN_NONE      (-1000.0f)
+ALLEGRO_SAMPLE: typedef struct ALLEGRO_SAMPLE ALLEGRO_SAMPLE;
+ALLEGRO_SAMPLE_ID: typedef struct ALLEGRO_SAMPLE_ID ALLEGRO_SAMPLE_ID;
+ALLEGRO_SAMPLE_INSTANCE: typedef struct ALLEGRO_SAMPLE_INSTANCE ALLEGRO_SAMPLE_INSTANCE;
+ALLEGRO_AUDIO_STREAM: typedef struct ALLEGRO_AUDIO_STREAM ALLEGRO_AUDIO_STREAM;
+ALLEGRO_MIXER: typedef struct ALLEGRO_MIXER ALLEGRO_MIXER;
+ALLEGRO_VOICE: typedef struct ALLEGRO_VOICE ALLEGRO_VOICE;
+al_create_audio_stream: ALLEGRO_AUDIO_STREAM *al_create_audio_stream(size_t fragment_count,
+al_create_audio_stream:    unsigned int frag_samples, unsigned int freq, ALLEGRO_AUDIO_DEPTH depth,
+al_create_audio_stream:    ALLEGRO_CHANNEL_CONF chan_conf)
+al_destroy_audio_stream: void al_destroy_audio_stream(ALLEGRO_AUDIO_STREAM *stream)
+al_drain_audio_stream: void al_drain_audio_stream(ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_frequency: unsigned int al_get_audio_stream_frequency(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_length: unsigned int al_get_audio_stream_length(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_fragments: unsigned int al_get_audio_stream_fragments(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_available_audio_stream_fragments: unsigned int al_get_available_audio_stream_fragments(
+al_get_available_audio_stream_fragments:    const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_speed: float al_get_audio_stream_speed(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_gain: float al_get_audio_stream_gain(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_pan: float al_get_audio_stream_pan(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_channels: ALLEGRO_CHANNEL_CONF al_get_audio_stream_channels(
+al_get_audio_stream_channels:    const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_depth: ALLEGRO_AUDIO_DEPTH al_get_audio_stream_depth(
+al_get_audio_stream_depth:    const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_playmode: ALLEGRO_PLAYMODE al_get_audio_stream_playmode(
+al_get_audio_stream_playmode:    const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_playing: bool al_get_audio_stream_playing(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_attached: bool al_get_audio_stream_attached(const ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_fragment: void *al_get_audio_stream_fragment(const ALLEGRO_AUDIO_STREAM *stream)
+al_set_audio_stream_speed: bool al_set_audio_stream_speed(ALLEGRO_AUDIO_STREAM *stream, float val)
+al_set_audio_stream_gain: bool al_set_audio_stream_gain(ALLEGRO_AUDIO_STREAM *stream, float val)
+al_set_audio_stream_pan: bool al_set_audio_stream_pan(ALLEGRO_AUDIO_STREAM *stream, float val)
+al_set_audio_stream_playmode: bool al_set_audio_stream_playmode(ALLEGRO_AUDIO_STREAM *stream,
+al_set_audio_stream_playmode:    ALLEGRO_PLAYMODE val)
+al_set_audio_stream_playing: bool al_set_audio_stream_playing(ALLEGRO_AUDIO_STREAM *stream, bool val)
+al_detach_audio_stream: bool al_detach_audio_stream(ALLEGRO_AUDIO_STREAM *stream)
+al_set_audio_stream_fragment: bool al_set_audio_stream_fragment(ALLEGRO_AUDIO_STREAM *stream, void *val)
+al_rewind_audio_stream: bool al_rewind_audio_stream(ALLEGRO_AUDIO_STREAM *stream)
+al_seek_audio_stream_secs: bool al_seek_audio_stream_secs(ALLEGRO_AUDIO_STREAM *stream, double time)
+al_get_audio_stream_position_secs: double al_get_audio_stream_position_secs(ALLEGRO_AUDIO_STREAM *stream)
+al_get_audio_stream_length_secs: double al_get_audio_stream_length_secs(ALLEGRO_AUDIO_STREAM *stream)
+al_set_audio_stream_loop_secs: bool al_set_audio_stream_loop_secs(ALLEGRO_AUDIO_STREAM *stream,
+al_set_audio_stream_loop_secs:    double start, double end)
+al_get_audio_stream_event_source: ALLEGRO_EVENT_SOURCE *al_get_audio_stream_event_source(
+al_get_audio_stream_event_source:    ALLEGRO_AUDIO_STREAM *stream)
+al_register_sample_loader: bool al_register_sample_loader(const char *ext,
+al_register_sample_loader:    ALLEGRO_SAMPLE *(*loader)(const char *filename))
+al_register_sample_loader_f: bool al_register_sample_loader_f(const char *ext,
+al_register_sample_loader_f:    ALLEGRO_SAMPLE *(*loader)(ALLEGRO_FILE* fp))
+al_register_sample_saver: bool al_register_sample_saver(const char *ext,
+al_register_sample_saver:    bool (*saver)(const char *filename, ALLEGRO_SAMPLE *spl))
+al_register_sample_saver_f: bool al_register_sample_saver_f(const char *ext,
+al_register_sample_saver_f:    bool (*saver)(ALLEGRO_FILE* fp, ALLEGRO_SAMPLE *spl))
+al_register_audio_stream_loader: bool al_register_audio_stream_loader(const char *ext,
+al_register_audio_stream_loader:    ALLEGRO_AUDIO_STREAM *(*stream_loader)(const char *filename,
+al_register_audio_stream_loader:       size_t buffer_count, unsigned int samples))
+al_register_audio_stream_loader_f: bool al_register_audio_stream_loader_f(const char *ext,
+al_register_audio_stream_loader_f:    ALLEGRO_AUDIO_STREAM *(*stream_loader)(ALLEGRO_FILE* fp,
+al_register_audio_stream_loader_f:       size_t buffer_count, unsigned int samples))
+al_load_sample: ALLEGRO_SAMPLE *al_load_sample(const char *filename)
+al_load_sample_f: ALLEGRO_SAMPLE *al_load_sample_f(ALLEGRO_FILE* fp, const char *ident)
+al_load_audio_stream: ALLEGRO_AUDIO_STREAM *al_load_audio_stream(const char *filename,
+al_load_audio_stream:    size_t buffer_count, unsigned int samples)
+al_load_audio_stream_f: ALLEGRO_AUDIO_STREAM *al_load_audio_stream_f(ALLEGRO_FILE* fp, const char *ident,
+al_load_audio_stream_f:    size_t buffer_count, unsigned int samples)
+al_save_sample: bool al_save_sample(const char *filename, ALLEGRO_SAMPLE *spl)
+al_save_sample_f: bool al_save_sample_f(ALLEGRO_FILE *fp, const char *ident, ALLEGRO_SAMPLE *spl)

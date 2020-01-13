@@ -1,0 +1,138 @@
+%\section{Aplicación}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]
+    \frametitle{\CSUO{}}
+    \block{Entrada/Salida}
+    \endblock{}
+\begin{lstlisting}[numbers=none]
+./csuoptimizer [opciones] entrada.xml
+\end{lstlisting}
+
+\begin{lstlisting}[linewidth=\linewidth,numbers=none,language=XML,basicstyle=\ttfamily\scriptsize]
+<Observables [widht=``Ancho_cielo'' height=``Alto_cielo'']>
+    <Element id=``Identificador''>
+        <X>PosX</X>
+        <Y>PosY</Y>
+        <Prioridad>[1..99]</Prioridad>
+    </Element>
+<!-- ...  -->
+</Observables>
+\end{lstlisting}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% Code  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}[fragile]
+    \frametitle{\CSUO{}}
+    \block{Entrada/Salida}
+    \endblock{}
+    \begin{lstlisting}[linewidth=\linewidth,numbers=none,language=XML,basicstyle=\ttfamily\footnotesize]
+<Apuntado>
+    <X>ValorX</X>
+    <Y>ValorY</Y>
+	  <PA>AnguloPosicion</PA>
+	  <Configuracion>
+		    <Barra>Posicion1</Barra>
+		    <Barra>Posicion2</Barra>
+            <!-- ...  -->
+		    <Barra>Posicion54</Barra>
+		    <Barra>Posicion55</Barra>
+	  </Configuracion>
+</Apuntado>
+\end{lstlisting}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% Code  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{frame}[fragile]
+%\frametitle{}
+%\block{}
+%\begin{lstlisting}[linewidth=\textwidth, numbers=none,basicstyle=\ttfamily\scriptsize]
+%$ ./csuoptimizer --help
+%
+%Pointing optimizer program for Emir
+%
+%Usage: ./csuoptimizer [options] <input file>"
+%
+%Available options:
+%--beams: activates beam switching (default is off).
+%--dat: Changes output format to .dat (default is XML).
+%--dbscan: Activates the use of DBScan cluster detection algorithm (default is off).
+%--grasp: Uses the GRASP heuristic to enhance the results (default is off).
+%--graphic: Activates graphic step by step execution for debugging purposes. It slows execution (default is off).
+%--noborder: Avoids objects in the border of the bars.
+%-NR X: X stands for the number of CSU rotations to perform when searching. Default is 20.
+%--verbose: Generates the 'verbose.txt' text file containing information related to the program execution.
+%
+%The <input file> must be a XML file with this format:
+%
+%<Observables [widht=Ancho_cielo height=Alto_cielo]>
+%		<Element id=\"Identificador\">
+%				<x>PosX</x>
+%				<y>PosY</y>
+%				<Prioridad>[1..99]</Prioridad>
+%		</Element>
+% 				 ···
+%</Observables>
+%\end{lstlisting}
+%\endblock{}
+%\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{\CSUO{}}
+    \block{Opciones}
+    \begin{itemize}[<+->]
+    \item Uso del DBScan (No)
+    \item Elegir número de rotaciones (20)
+    \item Elegir tipo de salida (XML)
+    \item Tipo de barra (Normal)
+    \end{itemize}
+    \endblock{}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Tipos de barras}
+    \block{Barras normales}
+    \endblock{}
+    \includegraphics[width=0.4\linewidth]{FIGURES/BarraPunto1}
+    \hspace{5mm}
+    \includegraphics[width=0.4\linewidth]{FIGURES/Bueno1}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Tipos de barras}
+    \block{Barras sin bordes}
+    \endblock{}
+    \includegraphics[width=0.4\linewidth]{FIGURES/BarraPunto2}
+    \hspace{5mm}
+    \includegraphics[width=0.4\linewidth]{FIGURES/Bueno2}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Tipos de barras}
+    \block{Barras con Beam Switching}
+    \endblock{}
+    \includegraphics[width=0.4\linewidth]{FIGURES/BarraPunto3}
+    \hspace{5mm}
+    \includegraphics[width=0.4\linewidth]{FIGURES/Bueno3}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \frametitle{Tipos de barras}
+    \block{Barras con ambas opciones}
+    \endblock{}
+    \includegraphics[width=0.4\linewidth]{FIGURES/BarraPunto4}
+    \hspace{5mm}
+    \includegraphics[width=0.4\linewidth]{FIGURES/Bueno4}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

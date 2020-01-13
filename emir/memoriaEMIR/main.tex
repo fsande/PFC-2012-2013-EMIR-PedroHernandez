@@ -1,0 +1,256 @@
+%
+% ---------------------------------------------------
+%
+% Author: Pedro Orlando Hernández Martín - F. de Sande fsande@ull.es
+% Fichero: main.tex
+% 15.Junio.2012
+%
+% ----------------------------------------------------
+\documentclass[12pt,a4paper,twoside]{book}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Next 3+3 lines select PDF or PS output (comment as apropriate)
+% To switch from PDF and PS comment/uncomment here and change Makefile
+\usepackage[pdftex]{color}
+\usepackage[pdftex]{graphicx}
+\graphicspath{{images/pdf/}}
+%\usepackage[dvips]{color}
+%\usepackage[dvips]{graphicx}
+%\graphicspath{{images/eps/}} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{subfig}
+\usepackage{amsmath}          % BGD: Para el boxed de las fórmulas matemáticas
+\usepackage[pdftex=true,colorlinks=true,urlcolor=blue,plainpages=false,pagebackref=true]{hyperref} %hiperenlaces y backcites 
+\usepackage{indentfirst}			% BGD: Indenta el primer párrafo 
+\usepackage[algonl,noend]{algorithm2e}
+%\usepackage{algpseudocode}
+\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\renewcommand{\thechapter}{\Roman{chapter}}		% BGD: Número de los capítulos en caracteres romanos
+\renewcommand{\thechapter}{\arabic{chapter}}		% número de los capítulos en arábigos
+
+\definecolor{marron}     {rgb}{0.496, 0.203, 0.152}
+\definecolor{verde-claro}{rgb}{0.625, 0.734, 0.199}
+\definecolor{oscuro}     {rgb}{0.187, 0.141, 0.285}
+\definecolor{gris}     	 {rgb}{0.500, 0.500, 0.500}
+\definecolor{gris-claro}     	 {rgb}{0.250, 0.250, 0.250}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Evitar partir palabras al final de la línea
+\hyphenpenalty=10000
+\tolerance=1000
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Para listados de código
+\usepackage{listings}
+\lstloadlanguages{C}
+
+% Definiendo colores para los listados de código fuente - Univ. Deusto
+\definecolor{violet}{rgb}{0.5,0,0.5}
+\definecolor{navy}{rgb}{0,0,0.5}
+\definecolor{hellgelb}{rgb}{1,1,0.8}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+
+\lstset{
+        float=hbp,
+		language = C,
+        basicstyle=\ttfamily\small,
+        identifierstyle=\color{colIdentifier},
+        keywordstyle=\color{colKeys},
+        stringstyle=\color{colString},
+        commentstyle=\color{colComments},
+        columns=flexible,
+        tabsize=4,
+        frame=single,
+        extendedchars=true,
+        showspaces=false,
+        showstringspaces=false,
+        numbers=left,
+        numberstyle=\tiny,
+        breaklines=true,
+        backgroundcolor=\color{hellgelb},
+        breakautoindent=true,
+        captionpos=b
+}
+
+\renewcommand{\lstlistingname}{Listado} % Los títulos de los códigos insertados se denotan con Ejemplo...   
+\renewcommand*{\listalgorithmcfname}{Listado de Algoritmos}
+\renewcommand*{\algorithmcfname}{Algoritmo}
+%\renewcommand*{\algorithmautorefname}{algoritmo}
+
+% Otro formato más bonito para código fuente
+\newcommand{\codigofuente}[3]{%
+  \lstlisting[language=#1,caption={#2}]{#3}%
+}
+
+%%%%%%%%%%%%
+% ---- Macros de uso extensivo ------
+\usepackage{proyecto-docente}
+% Requires fancyhdr package
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Titulo, autor y director
+\newcommand{\titlethesis}{{\Huge{\textbf{\texttt{AsCAP:}}}} 
+\\ \vspace{2cm}\textsc{CSUOptimizer: Optimización de apuntados en el proyecto EMIR}}
+\newcommand{\authorthesis}{Pedro Orlando Hernández Martín}
+\newcommand{\directorthesis}{Franciso de Sande González}
+
+%\def\thechapter{\Roman{chapter}}    % Números romanos en los capítulos
+\def\thechapter{\arabic{chapter}}    % Números arábigos en los capítulos
+
+% Comando para mis listas (BGD). Coloca el texto alineado con respecto a la
+% mayor etiqueta. Opcionalmente, añade la distancia que se indique entre
+% las definiciones (por defecto, las une en 2mm [-2mm])
+\newcommand{\bgdlist}[2][-2mm]{\settowidth{\labelwidth}{#2}
+    \setlength{\leftmargin}{\labelwidth}
+    \addtolength{\itemsep}{#1}}
+
+% Comandos para escribir "siempre igual"
+\newcommand{\CSUO}{\texttt{CSUOptimizer}{}}           % BGD: Nuevos comandos para imprimir con estilo
+\newcommand{\llc}{\texttt{llc}{}}           % BGD: Nuevos comandos para imprimir con estilo
+\newcommand{\llCoMP}{\texttt{llCoMP}{}}           % BGD: Nuevos comandos para imprimir con estilo
+\newcommand{\omp}{\texttt{omp}{}}           %      propio llc, omp y MPI
+\newcommand{\MPI}{\texttt{MPI}{}}
+\newcommand{\OpenMP}{\texttt{OpenMP}{}}
+\newcommand{\TBB}{\texttt{TBB}{}}
+\newcommand{\ciemat}{\texttt{SGI Origin 3000}{}}
+\newcommand{\bw}{\texttt{Cluster ULL}{}}
+\newcommand{\tarja}{\texttt{Bull Novascale Server}{}}
+\newcommand{\intel}{\texttt{Intel Quad-Core}{}}
+
+%Con este comando se indica a latex que si no puede o sabe partir una palabra,
+%la baje a la siguiente línea y rellene la línea anterior con espacios. Con
+%esto se evita, en cierta medida, que haya "salidas" de línea.
+\sloppy
+
+\frenchspacing
+% \setlength{\hoffset}{-15mm}
+% \setlength{\voffset}{-15mm}
+% \setlength{\textwidth}{17cm}
+% \setlength{\textheight}{23cm}
+% \setlength{\parskip}{3mm}
+
+%Imprimir los números en los títulos hasta el tercer nivel (subsubsecciones)
+\setcounter{secnumdepth}{3}
+%Imprimir en el índice los títulos hasta el tercer nivel (subsubsecciones)
+\setcounter{tocdepth}{3}
+
+\begin{document}
+% ==========================================================
+% --------      Las papeladas del principio        ---------
+% --------      Estan en el directorio ./previo/   ---------
+%\pagenumbering{roman}
+\pagestyle{empty}
+\include{previo/portada}
+\clearpage
+\mbox{ }
+
+\include{previo/preliminares}
+\clearpage
+\mbox{ }
+
+\include{previo/cita}
+\include{previo/dedica} 
+\clearpage
+\mbox{ }
+
+\include{previo/agrade} 
+\clearpage
+\mbox{ }
+
+\dspg
+
+\sloppy
+
+\newcommand{\figura}[4]{
+   \begin{figure}[htp!] % htpb es el orden de preferencia de colocaci�n:here-top-botton-page
+      \begin{center}
+         \includegraphics[#1]{#2}
+      \end{center}
+      \caption{#4}
+      \label{#3}
+   \end{figure}
+}
+
+% -------- Índices -----------
+\pagestyle{fancy}
+\markboth{Índice general}{Índice general}
+
+\tableofcontents
+\pagestyle{fancy}
+%\renewcommand{\thepage}{\roman{page}}
+\renewcommand{\thepage}{\arabic{page}}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\newpage
+\dsp
+% ==========================================================
+% --------               Capítulos                ----------
+% --------    Estan en el directorio capitulos/   ----------
+\renewcommand{\tablename}{Tabla}        % Los títulos de las tablas se denotan como Tabla...   
+\setlength{\parskip}{5mm} 
+%Prólogo
+\markboth{Prólogo}{Prólogo}
+\include{capitulos/Prologo}
+%\mainmatter
+
+%Capítulos
+%\pagenumbering{arabic}
+\include{capitulos/Cap_motivacion} 
+\include{capitulos/Cap_objetivos} 
+\include{capitulos/Cap_estado_arte}
+\include{capitulos/Cap_algoritmos}
+\include{capitulos/Cap_aplicacion}
+\include{capitulos/Cap_resultados}
+\include{capitulos/Cap_conclusiones}
+% ==========================================================
+% ----------              Apendices                ---------
+% ----------   Estan en el directorio apendices/   ---------
+\appendix
+%\markboth{Ejemplos de \llc{}}{Ejemplos de \llc{}}
+\include{apendices/Codigos}
+%\include{apendices/ap_ejemplos}
+%\include{apendices/ap_TrabEjemplos}
+%\include{apendices/ap_correoActualizacion}
+%\include{apendices/serverCfg}
+%\chapter{Ficheros \textit{Makefile}}
+%\lstset{language=ksh, basicstyle=\footnotesize}
+%\markboth{Ficheros \textit{Makefile}}{Ficheros \textit{Makefile}}
+% ==========================================================
+% ---------          Bibliografia               ------------
+% --------- Estan en el directorio bibliografia/------------
+\pagestyle{fancy}
+\markboth{Bibliography}{Bibliography}
+\addcontentsline{toc}{chapter}{Bibliography}
+%\chapter*{Bibliografía}
+% ELEGIR un estilo que te guste de bibliografía
+%\bibliographystyle{amsplain}
+%\bibliographystyle{abbrv}         % 
+\bibliographystyle{bmc_article}    % Este estilo mete las URLs de la bibliografía entre brackets
+% 
+% Diferentes ejemplos de estilos para bibliografía:
+% http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.html
+%
+\bibliography{bibliografia/bibliografia}
+
+% ==========================================================
+% ---------                Índices              ------------
+% ==========================================================
+\newpage 
+\markboth{Índice de figuras}{Índice de figuras}
+\addcontentsline{toc}{chapter}{Índice de figuras}  % Para incluirlo en el índice  
+\listoffigures
+
+\newpage 
+\markboth{Índice de tablas}{Índice de tablas}
+\renewcommand{\listtablename}{Índice de tablas}   %  Para que no aparezca Índice de cuadros
+\addcontentsline{toc}{chapter}{Índice de tablas}  % Para incluirlo en el índice  
+\listoftables
+
+\newpage 
+\markboth{Índice de listados}{Índice de listados}
+\renewcommand{\lstlistlistingname}{Índice de listados} %  Para que no aparezca Listings
+\addcontentsline{toc}{chapter}{Índice de listados}     % Para incluirlo en el índice     
+\lstlistoflistings
+\end{document}

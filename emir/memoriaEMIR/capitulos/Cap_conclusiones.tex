@@ -1,0 +1,84 @@
+%
+% ---------------------------------------------------
+%
+% Proyecto Final de Carrera: EMIR
+% Autor: Pedro Hernández Martín <alu3679@etsii.ull.es>
+% Capítulo: Detalles del problema
+% Fichero: Cap_conclusiones.tex
+%
+% ----------------------------------------------------
+%
+
+\chapter{Conclusiones y Trabajos Futuros} \label{chap:conclusions}
+En este PFC, se ha abordado la resolución del problema de minimización del número de apuntados
+del telescopio GTC necesarios para observar mediante el instumento EMIR un conjunto de objetos
+de interés astronómico.
+Se trata de un problema real que tienen los investigadores del proyecto EMIR y ello ha supuesto para
+el autor un acicate en nuestro esfuerzo para acreditar que somos capaces de resolver eficientemente
+problemas de ingeniería.
+
+El resultado más tangible del PFC es la aplicación \CSUO{}. 
+Se trata de una pequeña aplicación escrita en C++ siguiendo el paradigma orientado a objetos de unas
+3300 líneas de código.
+No obstante quisiéramos destacar desde el punto de vista académico que el PFC, como no puede ser de otro modo, 
+ha representado un escenario real de trabajo en el que el autor ha
+podido desplegar de forma práctica técnicas, metodologías, herramientas y conceptos estudiados en los años de discencia en la ETSI Informática.
+
+Las mayores dificultades halladas en el desarrollo del proyecto han sido:
+\begin{itemize}
+\item El estudio y selección de algoritmos que resuelvan el problema planteado.
+\item La comprensión precisa de las características intrínsecas al problema.
+\item La adaptación del lenguaje de la astronomía al campo que nos es propio de la computación.
+\item La mejora de la calidad de las soluciones obtenidas por la aplicación.
+\item La reducción de los tiempos de ejecución del algoritmo que finalmente se ha implementado.
+\end{itemize}
+Queremos destacar la importancia del trabajo de depuración y optimización del código que
+compone el \CSUO{} para obtener una versión que resuelve satisfactoriamente el problema propuesto.
+Asimismo es destacable el trabajo realizado por el autor para lograr elaborar un producto listo para usar 
+por parte de usuarios ajenos a la informática, poniendo a su disposición esta memoria del PFC, que constituye
+al mismo tiempo la mejor documentación disponible para la propia aplicación desarrollada.
+Importante ha sido en el desarrollo el trabajo con las
+herramientas de versionado y gestión de repositorio, sin las cuales las tareas de
+depuración y publicación de \textit{release} hubieran sido mucho más tediosas.
+
+En este documento se han revisado los logros conseguidos en la ejecución del proyecto. 
+Relacionándolos directamente con los objetivos planteados inicialmente, podemos
+señalar como más significativos los siguientes logros:
+
+\begin{itemize}
+\item Se ha realizado una investigación sobre posibles métodos para resolver el problema propuesto.
+\item Se ha desarrollado una aplicación plenamente operativa que resuelve el problema de optimización de
+      los apuntados de forma que consideramos satisfactoria.
+\item El software que se entrega como resultado ha sido desarrollado teniendo en mente que posiblemente sea
+      tomado como punto de partida para desarrollos ulteriores que, utilizando esta implementación como base,
+			la doten de funcionalidades adicionales, particularmente en el área de interfaz de usuario.
+			Este punto de vista ha obligado al autor a un trabajo concienzudo de documentación y estructuración
+			razonada del código.
+\item Se aporta el presente documento que constituye la documentación técnica de la aplicación desarrollada (Capítulo \ref{chap:aplication}).
+      Este documento será de gran ayuda para cualquier ingeniero que tenga que hacerse cargo posterior de este desarrollo
+			tanto a efectos de mejora, depuración u optimización.
+\end{itemize}
+
+Consideramos por otra parte que el problema propuesto por el equipo investigador del proyecto EMIR no queda cerrado con la
+conclusión de este PFC.
+Debido a las limitaciones temporales que afectan a un PFC en Informática hay diversos aspectos del trabajo realizado que
+claramente cabe mejorar.
+Algunas mejoras que hubieran tenido cabida en el marco del PFC no entrañan gran dificultad. 
+Si no han sido desarrolladas, ello se debe a que hasta el último momento, los esfuerzos del trabajo se han centrado exclusivamente
+en la mejora de las soluciones encontradas por la aplicación.
+Reseñamos a continuación en forma de posibles trabajos futuros a acometer en el marco del Proyecto EMIR algunas de estas mejoras:
+\begin{itemize}
+\item Un estudio más concienzudo de la calidad de las soluciones que se obtienen con el \CSUO{} respecto a las soluciones óptimas
+      ha quedado fuera del trabajo realizado.
+\item Hay margen de mejora en cuanto a los tiempos de respuesta del \CSUO{}. 
+      Aunque se encuentran dentro de los márgenes inicialmente establecidos en la especificación de requisitos, pensamos que no es un aspecto
+			difícil de mejorar.
+			Un análisis preliminar mediante profiling de la aplicación nos hace ser conocedores de las funciones que habría que optimizar y
+			una tecnología de paralelización utilizando OpenMP se nos ocurre como la solución a implementar inicialmente.
+\item La interfaz de usuario es otro aspecto que claramente merece atención en cuanto a necesidades de desarrollo.
+      A pesar de que los usuarios del \CSUO{} pertenecen al ámbito científico-tecnológico, en el que hay una mayor permisividad respecto
+			a las limitaciones en cuanto a interfaz de usuario de una aplicación, pensamos que estos usuarios se beneficiarían de una
+			pasarela que permitiera una selección cómoda de los objetos a observar.
+			En este sentido, hemos optado por elegir XML como formato de entrada de datos a la aplicación, lo cual flexibiliza la conexión con una
+			futura GUI.
+\end{itemize}

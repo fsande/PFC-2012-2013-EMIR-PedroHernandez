@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/15743/allegro/branches/5.0/addons/primitives
+END
+prim_directx.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/alleg/!svn/ver/14358/allegro/branches/5.0/addons/primitives/prim_directx.c
+END
+high_primitives.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/15312/allegro/branches/5.0/addons/primitives/high_primitives.c
+END
+directx_shaders.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/directx_shaders.c
+END
+prim_opengl.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/alleg/!svn/ver/14038/allegro/branches/5.0/addons/primitives/prim_opengl.c
+END
+primitives.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/alleg/!svn/ver/14966/allegro/branches/5.0/addons/primitives/primitives.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/CMakeLists.txt
+END
+nshader.fx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/nshader.fx
+END
+line_soft.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/line_soft.c
+END
+prim_soft.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/prim_soft.c
+END
+nshader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/nshader.cpp
+END
+point_soft.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/primitives/point_soft.c
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/alleg/!svn/ver/15815/allegro/branches/5.0/src/macosx
+END
+osxgl.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15815/allegro/branches/5.0/src/macosx/osxgl.m
+END
+keybd.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/14647/allegro/branches/5.0/src/macosx/keybd.m
+END
+hidman.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14386/allegro/branches/5.0/src/macosx/hidman.m
+END
+osx_app_delegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/15814/allegro/branches/5.0/src/macosx/osx_app_delegate.m
+END
+qzmouse.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15814/allegro/branches/5.0/src/macosx/qzmouse.m
+END
+system.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15815/allegro/branches/5.0/src/macosx/system.m
+END
+hidjoy-10.4.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/14017/allegro/branches/5.0/src/macosx/hidjoy-10.4.m
+END
+hidjoy.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15060/allegro/branches/5.0/src/macosx/hidjoy.m
+END
+osxgl.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/macosx/osxgl.h
+END

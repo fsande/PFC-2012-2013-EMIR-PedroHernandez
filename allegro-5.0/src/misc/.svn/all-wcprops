@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/alleg/!svn/ver/15351/allegro/branches/5.0/src/misc
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/alleg/!svn/ver/14451/allegro/branches/5.0/src/misc/list.c
+END
+bstrlib.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/misc/bstrlib.txt
+END
+aatree.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/misc/aatree.c
+END
+bstrlib.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/src/misc/bstrlib.c
+END
+vector.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/15351/allegro/branches/5.0/src/misc/vector.c
+END

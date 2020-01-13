@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/15748/allegro/branches/5.0/include/allegro5/opengl/GLext
+END
+wgl_ext_defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/wgl_ext_defs.h
+END
+gl_ext_alias.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/15748/allegro/branches/5.0/include/allegro5/opengl/GLext/gl_ext_alias.h
+END
+gl_ext_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/alleg/!svn/ver/15743/allegro/branches/5.0/include/allegro5/opengl/GLext/gl_ext_api.h
+END
+glx_ext_defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/glx_ext_defs.h
+END
+gl_ext_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/14024/allegro/branches/5.0/include/allegro5/opengl/GLext/gl_ext_list.h
+END
+wgl_ext_alias.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/wgl_ext_alias.h
+END
+wgl_ext_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/wgl_ext_api.h
+END
+gl_ext_defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/gl_ext_defs.h
+END
+glx_ext_alias.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/glx_ext_alias.h
+END
+glx_ext_api.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/glx_ext_api.h
+END
+wgl_ext_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/wgl_ext_list.h
+END
+glx_ext_list.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/include/allegro5/opengl/GLext/glx_ext_list.h
+END

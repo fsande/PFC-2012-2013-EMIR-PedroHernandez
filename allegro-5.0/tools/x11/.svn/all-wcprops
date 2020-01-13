@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/tools/x11
+END
+xf2pcx.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/tools/x11/xf2pcx.c
+END
+xkeymap.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/tools/x11/xkeymap.txt
+END
+xkeymap.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/tools/x11/xkeymap.c
+END
+xfixicon.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/tools/x11/xfixicon.sh
+END

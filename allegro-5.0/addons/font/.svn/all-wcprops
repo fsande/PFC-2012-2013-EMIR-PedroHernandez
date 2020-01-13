@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/alleg/!svn/ver/15789/allegro/branches/5.0/addons/font
+END
+font.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/14714/allegro/branches/5.0/addons/font/font.c
+END
+font.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/font/font.h
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/addons/font/CMakeLists.txt
+END
+text.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15730/allegro/branches/5.0/addons/font/text.c
+END
+fontbmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/15789/allegro/branches/5.0/addons/font/fontbmp.c
+END

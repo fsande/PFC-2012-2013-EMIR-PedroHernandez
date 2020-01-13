@@ -1,0 +1,593 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/alleg/!svn/ver/15832/allegro/branches/5.0/examples
+END
+ex_d3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_d3d.cpp
+END
+ex_opengl_pixel_shader.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/14649/allegro/branches/5.0/examples/ex_opengl_pixel_shader.c
+END
+ex_mouse_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14556/allegro/branches/5.0/examples/ex_mouse_events.c
+END
+ex_physfs.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_physfs.c
+END
+ex_memfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14167/allegro/branches/5.0/examples/ex_memfile.c
+END
+ex_bitmap_target.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/14037/allegro/branches/5.0/examples/ex_bitmap_target.c
+END
+ex_font_justify.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_font_justify.cpp
+END
+ex_mouse_cursor.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14330/allegro/branches/5.0/examples/ex_mouse_cursor.c
+END
+ex_subbitmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/14127/allegro/branches/5.0/examples/ex_subbitmap.c
+END
+ex_mouse_focus.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_mouse_focus.c
+END
+ex_gldepth.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14221/allegro/branches/5.0/examples/ex_gldepth.c
+END
+ex_timedwait.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_timedwait.c
+END
+ex_fs_resize.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/14330/allegro/branches/5.0/examples/ex_fs_resize.c
+END
+ex_blit.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_blit.c
+END
+nihgui.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14415/allegro/branches/5.0/examples/nihgui.hpp
+END
+ex_draw.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/14905/allegro/branches/5.0/examples/ex_draw.c
+END
+ex_file_slice.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15370/allegro/branches/5.0/examples/ex_file_slice.c
+END
+ex_rotate.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_rotate.c
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/15763/allegro/branches/5.0/examples/CMakeLists.txt
+END
+ex_haiku.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_haiku.c
+END
+ex_user_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13986/allegro/branches/5.0/examples/ex_user_events.c
+END
+ex_vsync.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15096/allegro/branches/5.0/examples/ex_vsync.c
+END
+ex_expose.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/14011/allegro/branches/5.0/examples/ex_expose.c
+END
+ex_curl.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15070/allegro/branches/5.0/examples/ex_curl.c
+END
+ex_prim.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_prim.c
+END
+ex_native_filechooser.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/alleg/!svn/ver/14932/allegro/branches/5.0/examples/ex_native_filechooser.c
+END
+ex_bitmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15355/allegro/branches/5.0/examples/ex_bitmap.c
+END
+ex_threads2.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_threads2.c
+END
+ex_dir.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/13986/allegro/branches/5.0/examples/ex_dir.c
+END
+ex_convert.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14010/allegro/branches/5.0/examples/ex_convert.c
+END
+ex_display_options.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_display_options.c
+END
+ex_timer.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_timer.c
+END
+ex_winfull.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14163/allegro/branches/5.0/examples/ex_winfull.c
+END
+ex_iphone.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_iphone.c
+END
+ex_drawpixels.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_drawpixels.c
+END
+ex_blend_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_blend_test.c
+END
+ex_opengl.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_opengl.c
+END
+ex_audio_props.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/15778/allegro/branches/5.0/examples/ex_audio_props.cpp
+END
+ex_filter.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/14127/allegro/branches/5.0/examples/ex_filter.c
+END
+ex_utf8.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15794/allegro/branches/5.0/examples/ex_utf8.c
+END
+ex_dualies.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_dualies.c
+END
+ex_clip.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_clip.c
+END
+ex_icon.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_icon.c
+END
+ex_mouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14013/allegro/branches/5.0/examples/ex_mouse.c
+END
+ex_pixelformat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/14037/allegro/branches/5.0/examples/ex_pixelformat.cpp
+END
+ex_get_path.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/15382/allegro/branches/5.0/examples/ex_get_path.c
+END
+common.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/13992/allegro/branches/5.0/examples/common.c
+END
+ex_fs_window.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/15731/allegro/branches/5.0/examples/ex_fs_window.c
+END
+ex_resize.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_resize.c
+END
+ex_monitorinfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13986/allegro/branches/5.0/examples/ex_monitorinfo.c
+END
+ex_synth.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_synth.cpp
+END
+ex_blend2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_blend2.cpp
+END
+ex_audio_simple.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/14127/allegro/branches/5.0/examples/ex_audio_simple.c
+END
+ex_gp2xwiz.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_gp2xwiz.c
+END
+ex_premulalpha.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14004/allegro/branches/5.0/examples/ex_premulalpha.c
+END
+ex_color.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_color.cpp
+END
+ex_acodec.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15824/allegro/branches/5.0/examples/ex_acodec.c
+END
+ex_warp_mouse.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_warp_mouse.c
+END
+ex_blend_bench.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_blend_bench.c
+END
+ex_mixer_pp.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_mixer_pp.c
+END
+ex_keyboard_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/14128/allegro/branches/5.0/examples/ex_keyboard_events.c
+END
+ex_blend.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_blend.c
+END
+ex_mixer_chain.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_mixer_chain.c
+END
+nihgui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15730/allegro/branches/5.0/examples/nihgui.cpp
+END
+ex_acodec_multi.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_acodec_multi.c
+END
+ex_draw_bitmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14127/allegro/branches/5.0/examples/ex_draw_bitmap.c
+END
+ex_stream_file.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_stream_file.c
+END
+ex_threads.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14049/allegro/branches/5.0/examples/ex_threads.c
+END
+ex_windows.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_windows.c
+END
+ex_path_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/13986/allegro/branches/5.0/examples/ex_path_test.c
+END
+ex_multisample.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14905/allegro/branches/5.0/examples/ex_multisample.c
+END
+ex_ttf.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/15730/allegro/branches/5.0/examples/ex_ttf.c
+END
+ex_keyboard_focus.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_keyboard_focus.c
+END
+ex_logo.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/15786/allegro/branches/5.0/examples/ex_logo.c
+END
+ex_stream_seek.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14127/allegro/branches/5.0/examples/ex_stream_seek.c
+END
+ex_audio_chain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/15832/allegro/branches/5.0/examples/ex_audio_chain.cpp
+END
+ex_multiwin.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_multiwin.c
+END
+ex_lines.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_lines.c
+END
+ex_transform.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/14448/allegro/branches/5.0/examples/ex_transform.c
+END
+ex_membmp.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_membmp.c
+END
+ex_joystick_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/alleg/!svn/ver/15757/allegro/branches/5.0/examples/ex_joystick_events.c
+END
+ex_glext.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14012/allegro/branches/5.0/examples/ex_glext.c
+END
+ex_resize2.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_resize2.c
+END
+ex_ogre3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/15330/allegro/branches/5.0/examples/ex_ogre3d.cpp
+END
+ex_lockbitmap.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/14474/allegro/branches/5.0/examples/ex_lockbitmap.c
+END
+ex_bitmap_flip.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/14001/allegro/branches/5.0/examples/ex_bitmap_flip.c
+END
+ex_noframe.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/15753/allegro/branches/5.0/examples/ex_noframe.c
+END
+ex_scale.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/14127/allegro/branches/5.0/examples/ex_scale.c
+END
+ex_display_events.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/alleg/!svn/ver/15337/allegro/branches/5.0/examples/ex_display_events.c
+END
+ex_saw.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/alleg/!svn/ver/15752/allegro/branches/5.0/examples/ex_saw.c
+END
+ex_path.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13986/allegro/branches/5.0/examples/ex_path.c
+END
+ex_nodisplay.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_nodisplay.c
+END
+ex_disable_screensaver.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/alleg/!svn/ver/13995/allegro/branches/5.0/examples/ex_disable_screensaver.c
+END
+ex_kcm_direct.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/examples/ex_kcm_direct.c
+END
+ex_config.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/13989/allegro/branches/5.0/examples/ex_config.c
+END
+ex_joystick_hotplugging.c
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/alleg/!svn/ver/14330/allegro/branches/5.0/examples/ex_joystick_hotplugging.c
+END
+ex_font.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/alleg/!svn/ver/13989/allegro/branches/5.0/examples/ex_font.c
+END
+ex_resample_test.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/alleg/!svn/ver/15773/allegro/branches/5.0/examples/ex_resample_test.c
+END

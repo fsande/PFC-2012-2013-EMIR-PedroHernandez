@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/alleg/!svn/ver/15816/allegro/branches/5.0/tests
+END
+test_bitmaps2.ini
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/15314/allegro/branches/5.0/tests/test_bitmaps2.ini
+END
+test_image.ini
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15410/allegro/branches/5.0/tests/test_image.ini
+END
+test_blend.ini
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/14144/allegro/branches/5.0/tests/test_blend.ini
+END
+test_locking.ini
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/14021/allegro/branches/5.0/tests/test_locking.ini
+END
+test_fonts.ini
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15375/allegro/branches/5.0/tests/test_fonts.ini
+END
+test_backbuffer.ini
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/alleg/!svn/ver/15366/allegro/branches/5.0/tests/test_backbuffer.ini
+END
+test_driver.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/alleg/!svn/ver/15787/allegro/branches/5.0/tests/test_driver.txt
+END
+test_driver.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15807/allegro/branches/5.0/tests/test_driver.c
+END
+test_bitmaps.ini
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/alleg/!svn/ver/13912/allegro/branches/5.0/tests/test_bitmaps.ini
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/alleg/!svn/ver/15816/allegro/branches/5.0/tests/CMakeLists.txt
+END
+test_prim.ini
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/alleg/!svn/ver/15732/allegro/branches/5.0/tests/test_prim.ini
+END
+manual_bmpsuite1.ini
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/15808/allegro/branches/5.0/tests/manual_bmpsuite1.ini
+END
+test_locking2.ini
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/alleg/!svn/ver/15329/allegro/branches/5.0/tests/test_locking2.ini
+END
+manual_bmpsuite2.ini
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/15808/allegro/branches/5.0/tests/manual_bmpsuite2.ini
+END
+manual_bmpsuite3.ini
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/alleg/!svn/ver/15808/allegro/branches/5.0/tests/manual_bmpsuite3.ini
+END

@@ -1,0 +1,21 @@
+K 10
+svn:ignore
+V 141
+CMakeFiles
+Makefile
+cmake_install.cmake
+afinfo
+akaitest
+cpptest
+digitest
+filetest
+gfxinfo
+mathtest
+miditest
+play
+playfli
+test
+vesainfo
+*.exe
+
+END

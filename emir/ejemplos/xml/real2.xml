@@ -1,0 +1,1487 @@
+<Observables>
+	<Element id="1">
+		<X>10.309</X>
+		<Y>3216.76</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="2">
+		<X>16.2058</X>
+		<Y>3567.92</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="3">
+		<X>145.794</X>
+		<Y>1956.74</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="4">
+		<X>160.854</X>
+		<Y>3380.39</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="5">
+		<X>171.43</X>
+		<Y>2754.81</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="6">
+		<X>240.74</X>
+		<Y>3045.54</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="7">
+		<X>243.123</X>
+		<Y>2715.43</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="8">
+		<X>252.956</X>
+		<Y>3451.35</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="9">
+		<X>317.167</X>
+		<Y>3543.13</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="10">
+		<X>348.719</X>
+		<Y>3402.6</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="11">
+		<X>350.51</X>
+		<Y>2753.47</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="12">
+		<X>364.258</X>
+		<Y>3242.6</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="13">
+		<X>371.839</X>
+		<Y>3520.8</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="14">
+		<X>405.993</X>
+		<Y>3419.78</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="15">
+		<X>431.041</X>
+		<Y>3588.06</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="16">
+		<X>438.254</X>
+		<Y>2833.43</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="17">
+		<X>468.618</X>
+		<Y>2183.61</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="18">
+		<X>501.548</X>
+		<Y>1393.25</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="19">
+		<X>502.606</X>
+		<Y>1655.87</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="20">
+		<X>518.491</X>
+		<Y>2190.46</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="21">
+		<X>521.88</X>
+		<Y>2791.29</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="22">
+		<X>534.6</X>
+		<Y>1370.57</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="23">
+		<X>553.866</X>
+		<Y>2832.75</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="24">
+		<X>572.149</X>
+		<Y>3095.17</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="25">
+		<X>590.41</X>
+		<Y>1679.42</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="26">
+		<X>611.667</X>
+		<Y>2312.87</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="27">
+		<X>620.47</X>
+		<Y>2657.9</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="28">
+		<X>656.911</X>
+		<Y>1549.52</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="29">
+		<X>658.089</X>
+		<Y>2440.8</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="30">
+		<X>705.154</X>
+		<Y>1476.36</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="31">
+		<X>710.121</X>
+		<Y>2924.94</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="32">
+		<X>717.635</X>
+		<Y>2798.09</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="33">
+		<X>736.478</X>
+		<Y>2091.41</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="34">
+		<X>742.068</X>
+		<Y>563.059</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="35">
+		<X>764.987</X>
+		<Y>2866.51</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="36">
+		<X>766.336</X>
+		<Y>2727.06</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="37">
+		<X>774.86</X>
+		<Y>2931.06</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="38">
+		<X>780.416</X>
+		<Y>1423.65</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="39">
+		<X>805.244</X>
+		<Y>2097.85</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="40">
+		<X>816.383</X>
+		<Y>2408.05</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="41">
+		<X>823.345</X>
+		<Y>2848.32</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="42">
+		<X>829.303</X>
+		<Y>3522.91</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="43">
+		<X>838.018</X>
+		<Y>3354.58</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="44">
+		<X>846.839</X>
+		<Y>3212.42</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="45">
+		<X>857.731</X>
+		<Y>3420.27</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="46">
+		<X>858.456</X>
+		<Y>3249.58</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="47">
+		<X>862.325</X>
+		<Y>2587.23</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="48">
+		<X>863.336</X>
+		<Y>2877.09</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="49">
+		<X>863.817</X>
+		<Y>3252.08</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="50">
+		<X>873.205</X>
+		<Y>2405.17</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="51">
+		<X>883.213</X>
+		<Y>1218.77</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="52">
+		<X>889.161</X>
+		<Y>2644.69</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="53">
+		<X>889.749</X>
+		<Y>2794.19</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="54">
+		<X>892.767</X>
+		<Y>3477.34</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="55">
+		<X>904.232</X>
+		<Y>3275.25</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="56">
+		<X>915.714</X>
+		<Y>2550.86</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="57">
+		<X>918.945</X>
+		<Y>2668.56</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="58">
+		<X>922.14</X>
+		<Y>1784.6</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="59">
+		<X>924.947</X>
+		<Y>696.292</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="60">
+		<X>929.588</X>
+		<Y>2579.54</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="61">
+		<X>929.805</X>
+		<Y>3347.95</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="62">
+		<X>942.795</X>
+		<Y>2813.92</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="63">
+		<X>951.687</X>
+		<Y>1686.55</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="64">
+		<X>965.727</X>
+		<Y>3369.92</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="65">
+		<X>968.433</X>
+		<Y>3395.65</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="66">
+		<X>983.882</X>
+		<Y>3330.02</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="67">
+		<X>1008.32</X>
+		<Y>2581.97</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="68">
+		<X>1029.66</X>
+		<Y>469.94</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="69">
+		<X>1031.68</X>
+		<Y>1490.48</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="70">
+		<X>1036.67</X>
+		<Y>1886.46</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="71">
+		<X>1041.39</X>
+		<Y>3314.06</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="72">
+		<X>1044.12</X>
+		<Y>3516.45</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="73">
+		<X>1051.62</X>
+		<Y>781.203</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="74">
+		<X>1055.09</X>
+		<Y>3002.47</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="75">
+		<X>1056.44</X>
+		<Y>1885.36</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="76">
+		<X>1057.91</X>
+		<Y>458.761</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="77">
+		<X>1062.2</X>
+		<Y>358.087</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="78">
+		<X>1068.8</X>
+		<Y>1881.27</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="79">
+		<X>1075.85</X>
+		<Y>542.583</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="80">
+		<X>1076.63</X>
+		<Y>2805.36</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="81">
+		<X>1104.7</X>
+		<Y>155.657</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="82">
+		<X>1107.68</X>
+		<Y>1183.35</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="83">
+		<X>1119.49</X>
+		<Y>2384.17</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="84">
+		<X>1131.31</X>
+		<Y>749.458</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="85">
+		<X>1134.55</X>
+		<Y>506.417</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="86">
+		<X>1144.39</X>
+		<Y>1060.37</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="87">
+		<X>1159.47</X>
+		<Y>2115.74</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="88">
+		<X>1167.74</X>
+		<Y>3251.97</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="89">
+		<X>1168.55</X>
+		<Y>2340.01</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="90">
+		<X>1178.73</X>
+		<Y>941.246</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="91">
+		<X>1188.71</X>
+		<Y>2549.47</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="92">
+		<X>1190.65</X>
+		<Y>124.582</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="93">
+		<X>1206.33</X>
+		<Y>3091.16</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="94">
+		<X>1207.68</X>
+		<Y>209.434</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="95">
+		<X>1227.48</X>
+		<Y>2306.87</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="96">
+		<X>1227.79</X>
+		<Y>572.645</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="97">
+		<X>1229.74</X>
+		<Y>2721.94</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="98">
+		<X>1234.18</X>
+		<Y>2848.22</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="99">
+		<X>1243.59</X>
+		<Y>742.236</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="100">
+		<X>1264.43</X>
+		<Y>2092.58</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="101">
+		<X>1271.59</X>
+		<Y>2066.36</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="102">
+		<X>1292.9</X>
+		<Y>1518.62</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="103">
+		<X>1331.73</X>
+		<Y>255.617</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="104">
+		<X>1346.6</X>
+		<Y>3055.9</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="105">
+		<X>1357.59</X>
+		<Y>627.218</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="106">
+		<X>1359.87</X>
+		<Y>3059.26</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="107">
+		<X>1368.51</X>
+		<Y>2436.08</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="108">
+		<X>1373.52</X>
+		<Y>609.318</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="109">
+		<X>1384.48</X>
+		<Y>230.773</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="110">
+		<X>1386.12</X>
+		<Y>1927.34</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="111">
+		<X>1387.58</X>
+		<Y>375.973</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="112">
+		<X>1395.67</X>
+		<Y>579.07</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="113">
+		<X>1402.05</X>
+		<Y>2851.31</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="114">
+		<X>1408.42</X>
+		<Y>1689.59</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="115">
+		<X>1411.22</X>
+		<Y>1234.06</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="116">
+		<X>1422.99</X>
+		<Y>256.763</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="117">
+		<X>1468.11</X>
+		<Y>736.351</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="118">
+		<X>1476.8</X>
+		<Y>3524.09</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="119">
+		<X>1491.97</X>
+		<Y>2903.49</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="120">
+		<X>1495.74</X>
+		<Y>1359.29</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="121">
+		<X>1522.42</X>
+		<Y>3040.86</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="122">
+		<X>1527</X>
+		<Y>3460.49</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="123">
+		<X>1532.02</X>
+		<Y>1763.84</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="124">
+		<X>1537.66</X>
+		<Y>1835.86</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="125">
+		<X>1540.78</X>
+		<Y>524.396</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="126">
+		<X>1549.87</X>
+		<Y>1909.9</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="127">
+		<X>1551.97</X>
+		<Y>2845.77</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="128">
+		<X>1557.53</X>
+		<Y>2504.16</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="129">
+		<X>1560.72</X>
+		<Y>34.8324</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="130">
+		<X>1568.87</X>
+		<Y>2805.51</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="131">
+		<X>1578.97</X>
+		<Y>443.613</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="132">
+		<X>1582.18</X>
+		<Y>578.029</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="133">
+		<X>1606.43</X>
+		<Y>370.191</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="134">
+		<X>1610.22</X>
+		<Y>356.028</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="135">
+		<X>1626.02</X>
+		<Y>3190.62</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="136">
+		<X>1626.25</X>
+		<Y>331.418</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="137">
+		<X>1666.89</X>
+		<Y>380.69</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="138">
+		<X>1671.38</X>
+		<Y>1304.56</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="139">
+		<X>1690.43</X>
+		<Y>150.394</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="140">
+		<X>1690.66</X>
+		<Y>373.905</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="141">
+		<X>1695.08</X>
+		<Y>1845.32</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="142">
+		<X>1706.63</X>
+		<Y>3441.69</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="143">
+		<X>1708.55</X>
+		<Y>3331.45</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="144">
+		<X>1742.09</X>
+		<Y>980.141</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="145">
+		<X>1748.53</X>
+		<Y>1493.2</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="146">
+		<X>1755.6</X>
+		<Y>472.044</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="147">
+		<X>1765.51</X>
+		<Y>2450.17</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="148">
+		<X>1775.56</X>
+		<Y>519.433</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="149">
+		<X>1798.72</X>
+		<Y>1244.87</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="150">
+		<X>1803.71</X>
+		<Y>698.136</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="151">
+		<X>1818.95</X>
+		<Y>3348.22</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="152">
+		<X>1825.02</X>
+		<Y>1317.99</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="153">
+		<X>1838.88</X>
+		<Y>2360.34</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="154">
+		<X>1839.93</X>
+		<Y>1322.76</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="155">
+		<X>1840.46</X>
+		<Y>2852.06</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="156">
+		<X>1851.87</X>
+		<Y>3542.28</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="157">
+		<X>1857.27</X>
+		<Y>2225.19</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="158">
+		<X>1879.6</X>
+		<Y>1416.98</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="159">
+		<X>1891.08</X>
+		<Y>427.808</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="160">
+		<X>1897.2</X>
+		<Y>2376.98</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="161">
+		<X>1897.31</X>
+		<Y>1727.04</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="162">
+		<X>1902.48</X>
+		<Y>1005.39</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="163">
+		<X>1909.88</X>
+		<Y>2619.11</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="164">
+		<X>1914.81</X>
+		<Y>555.299</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="165">
+		<X>1918.11</X>
+		<Y>1342.28</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="166">
+		<X>1940.17</X>
+		<Y>1909.21</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="167">
+		<X>1948</X>
+		<Y>2798</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="168">
+		<X>1949.01</X>
+		<Y>2280.63</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="169">
+		<X>1953.96</X>
+		<Y>554.205</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="170">
+		<X>1962.14</X>
+		<Y>1848.61</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="171">
+		<X>1962.39</X>
+		<Y>476.118</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="172">
+		<X>1973.62</X>
+		<Y>1942.77</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="173">
+		<X>1994.64</X>
+		<Y>1814.81</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="174">
+		<X>2035</X>
+		<Y>3196.91</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="175">
+		<X>2039.18</X>
+		<Y>1755.55</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="176">
+		<X>2045.77</X>
+		<Y>932.294</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="177">
+		<X>2072.11</X>
+		<Y>732.982</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="178">
+		<X>2076.45</X>
+		<Y>1097.65</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="179">
+		<X>2081.13</X>
+		<Y>2185.21</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="180">
+		<X>2086.41</X>
+		<Y>956.733</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="181">
+		<X>2088.48</X>
+		<Y>1653.16</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="182">
+		<X>2093.49</X>
+		<Y>2649.21</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="183">
+		<X>2096.45</X>
+		<Y>2582.19</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="184">
+		<X>2099.63</X>
+		<Y>474.633</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="185">
+		<X>2106</X>
+		<Y>3274.37</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="186">
+		<X>2131.02</X>
+		<Y>1862.23</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="187">
+		<X>2132.04</X>
+		<Y>1097.15</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="188">
+		<X>2141.24</X>
+		<Y>1842.29</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="189">
+		<X>2164.84</X>
+		<Y>586.616</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="190">
+		<X>2166.17</X>
+		<Y>92.9507</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="191">
+		<X>2181.59</X>
+		<Y>249.446</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="192">
+		<X>2189.8</X>
+		<Y>2131.6</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="193">
+		<X>2200.21</X>
+		<Y>1118.46</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="194">
+		<X>2203.14</X>
+		<Y>1865.55</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="195">
+		<X>2205.72</X>
+		<Y>3444.79</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="196">
+		<X>2223.36</X>
+		<Y>3371.1</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="197">
+		<X>2230.99</X>
+		<Y>1298.88</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="198">
+		<X>2257.77</X>
+		<Y>2660.38</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="199">
+		<X>2261.43</X>
+		<Y>495.625</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="200">
+		<X>2268.46</X>
+		<Y>3169.37</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="201">
+		<X>2289.67</X>
+		<Y>2453.22</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="202">
+		<X>2292.6</X>
+		<Y>2988.06</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="203">
+		<X>2292.8</X>
+		<Y>2179.72</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="204">
+		<X>2310.52</X>
+		<Y>119.27</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="205">
+		<X>2311.94</X>
+		<Y>1965.72</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="206">
+		<X>2313.11</X>
+		<Y>580.062</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="207">
+		<X>2316.95</X>
+		<Y>428.156</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="208">
+		<X>2321.73</X>
+		<Y>1966.71</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="209">
+		<X>2331.18</X>
+		<Y>1017.86</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="210">
+		<X>2332.11</X>
+		<Y>2416.22</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="211">
+		<X>2334.01</X>
+		<Y>2520.91</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="212">
+		<X>2334.9</X>
+		<Y>1760.75</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="213">
+		<X>2338.87</X>
+		<Y>1753.64</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="214">
+		<X>2350.98</X>
+		<Y>2601.6</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="215">
+		<X>2360.7</X>
+		<Y>1944.47</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="216">
+		<X>2361.95</X>
+		<Y>967.687</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="217">
+		<X>2374.53</X>
+		<Y>3146.12</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="218">
+		<X>2388.77</X>
+		<Y>582.681</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="219">
+		<X>2389.14</X>
+		<Y>618.664</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="220">
+		<X>2417.17</X>
+		<Y>3233.02</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="221">
+		<X>2443.03</X>
+		<Y>2448.04</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="222">
+		<X>2446.84</X>
+		<Y>1958.53</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="223">
+		<X>2460.66</X>
+		<Y>3355</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="224">
+		<X>2461.85</X>
+		<Y>74.281</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="225">
+		<X>2462.05</X>
+		<Y>3592.11</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="226">
+		<X>2465.48</X>
+		<Y>2805.62</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="227">
+		<X>2480.16</X>
+		<Y>1089.47</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="228">
+		<X>2522.83</X>
+		<Y>244.131</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="229">
+		<X>2528.52</X>
+		<Y>1600.45</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="230">
+		<X>2542.11</X>
+		<Y>1162.51</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="231">
+		<X>2581.29</X>
+		<Y>1573.06</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="232">
+		<X>2599.8</X>
+		<Y>707.363</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="233">
+		<X>2605.58</X>
+		<Y>1219.56</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="234">
+		<X>2615.81</X>
+		<Y>1791.95</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="235">
+		<X>2618.77</X>
+		<Y>1252.81</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="236">
+		<X>2640.63</X>
+		<Y>1253.41</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="237">
+		<X>2650.06</X>
+		<Y>637.85</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="238">
+		<X>2654.27</X>
+		<Y>1913.55</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="239">
+		<X>2667.66</X>
+		<Y>840.267</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="240">
+		<X>2674.1</X>
+		<Y>1453.9</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="241">
+		<X>2682.48</X>
+		<Y>729.298</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="242">
+		<X>2683.7</X>
+		<Y>732.79</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="243">
+		<X>2689.45</X>
+		<Y>2624.65</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="244">
+		<X>2693.1</X>
+		<Y>2636.75</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="245">
+		<X>2712</X>
+		<Y>1381.23</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="246">
+		<X>2714.11</X>
+		<Y>1224.35</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="247">
+		<X>2714.9</X>
+		<Y>487.958</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="248">
+		<X>2716.34</X>
+		<Y>575.68</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="249">
+		<X>2716.38</X>
+		<Y>2420.31</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="250">
+		<X>2739.88</X>
+		<Y>103.097</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="251">
+		<X>2759.15</X>
+		<Y>1002.97</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="252">
+		<X>2827.23</X>
+		<Y>390.593</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="253">
+		<X>2840.45</X>
+		<Y>1419.7</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="254">
+		<X>2863.79</X>
+		<Y>958.799</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="255">
+		<X>2865.76</X>
+		<Y>488.045</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="256">
+		<X>2904.76</X>
+		<Y>1372.41</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="257">
+		<X>2904.77</X>
+		<Y>1293.21</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="258">
+		<X>2914.42</X>
+		<Y>81.5659</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="259">
+		<X>2975.35</X>
+		<Y>2248.89</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="260">
+		<X>3081.53</X>
+		<Y>280.201</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="261">
+		<X>3098.21</X>
+		<Y>1136.57</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="262">
+		<X>3100.3</X>
+		<Y>1021.72</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="263">
+		<X>3118.73</X>
+		<Y>717.057</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="264">
+		<X>3124.99</X>
+		<Y>1027.24</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="265">
+		<X>3126.15</X>
+		<Y>1050.55</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="266">
+		<X>3165.84</X>
+		<Y>2024.18</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="267">
+		<X>3168.72</X>
+		<Y>536.634</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="268">
+		<X>3169</X>
+		<Y>2966.54</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="269">
+		<X>3171.69</X>
+		<Y>659.68</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="270">
+		<X>3190.17</X>
+		<Y>681.416</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="271">
+		<X>3197.21</X>
+		<Y>2303.82</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="272">
+		<X>3215.86</X>
+		<Y>649.793</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="273">
+		<X>3235.25</X>
+		<Y>581.614</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="274">
+		<X>3238.55</X>
+		<Y>2401.79</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="275">
+		<X>3260.69</X>
+		<Y>2596.2</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="276">
+		<X>3269.66</X>
+		<Y>2622.17</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="277">
+		<X>3308.51</X>
+		<Y>618.072</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="278">
+		<X>3309.2</X>
+		<Y>2103.69</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="279">
+		<X>3322.22</X>
+		<Y>434.878</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="280">
+		<X>3328.93</X>
+		<Y>571.211</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="281">
+		<X>3357.17</X>
+		<Y>2006.02</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="282">
+		<X>3363.96</X>
+		<Y>257.573</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="283">
+		<X>3374.62</X>
+		<Y>1147.36</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="284">
+		<X>3382.66</X>
+		<Y>2572.06</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="285">
+		<X>3387.33</X>
+		<Y>3011.39</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="286">
+		<X>3404.88</X>
+		<Y>139.126</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="287">
+		<X>3409.24</X>
+		<Y>674.272</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="288">
+		<X>3419.91</X>
+		<Y>465.67</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="289">
+		<X>3457.26</X>
+		<Y>51.2144</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="290">
+		<X>3523.96</X>
+		<Y>1015.91</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="291">
+		<X>3551.78</X>
+		<Y>1005.7</Y>
+		<Prioridad>1</Prioridad>
+	</Element>
+	<Element id="292">
+		<X>3552.08</X>
+		<Y>1009.56</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="293">
+		<X>3569.76</X>
+		<Y>1549.11</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="294">
+		<X>3571.39</X>
+		<Y>1396.01</Y>
+		<Prioridad>2</Prioridad>
+	</Element>
+	<Element id="295">
+		<X>3573.48</X>
+		<Y>1344.31</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="296">
+		<X>3595.8</X>
+		<Y>335.252</Y>
+		<Prioridad>3</Prioridad>
+	</Element>
+	<Element id="297">
+		<X>1800</X>
+		<Y>1800</Y>
+		<Prioridad>0</Prioridad>
+	</Element>
+</Observables>
